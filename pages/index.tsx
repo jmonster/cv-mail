@@ -1,8 +1,8 @@
-import type { NextPage } from "next";
-import Head from "next/head";
-import Layout from "../components/layout";
-import { CopyToClipboard } from "react-copy-to-clipboard";
-import { tomlExample, tomlTemplate } from "../template";
+import type { NextPage } from "next"
+import Head from "next/head"
+import Layout from "../components/layout"
+import { CopyToClipboard } from "react-copy-to-clipboard"
+import { tomlExample, tomlTemplate } from "../template"
 
 const Home: NextPage = () => {
   return (
@@ -84,7 +84,7 @@ const Home: NextPage = () => {
         </div>
       </div>
     </Layout>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

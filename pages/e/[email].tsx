@@ -1,17 +1,17 @@
-import Layout from "../../components/layout";
-import Opportunity from "../../components/opportunity";
-import Aside from "../../components/aside";
-import { GetServerSideProps } from "next";
-import { Resume } from "../../types/resume";
-import Head from "next/head";
+import Layout from "../../components/layout"
+import Opportunity from "../../components/opportunity"
+import Aside from "../../components/aside"
+import { GetServerSideProps } from "next"
+import { Resume } from "../../types/resume"
+import Head from "next/head"
 
 type EmailArgs = {
-  email?: string;
-};
+  email?: string
+}
 
 type SocialArgs = {
-  username?: string;
-};
+  username?: string
+}
 
 function EmailSection(props: EmailArgs) {
   return props.email ? (
@@ -27,7 +27,7 @@ function EmailSection(props: EmailArgs) {
       </svg>
       <a href={`mailto:${props.email}`}>{props.email}</a>
     </li>
-  ) : null;
+  ) : null
 }
 
 function GitHubSection(props: SocialArgs) {
@@ -44,7 +44,7 @@ function GitHubSection(props: SocialArgs) {
       </svg>
       <a href={`https://www.${props.username}`}>{props.username}</a>
     </li>
-  ) : null;
+  ) : null
 }
 
 function LinkedInSection(props: SocialArgs) {
@@ -61,7 +61,7 @@ function LinkedInSection(props: SocialArgs) {
       </svg>
       <a href={`https://www.${props.username}`}>{props.username}</a>
     </li>
-  ) : null;
+  ) : null
 }
 
 export default function EmailPage(resume: Resume) {
@@ -79,7 +79,7 @@ export default function EmailPage(resume: Resume) {
         {/* left */}
         <div className="col-span-7 print:col-span-5 md:col-span-5">
           <h1 className="text-4xl">{resume.label}</h1>
-          <h2 className="text-2xl font-mono">&gt; {resume.role}</h2>
+          <h2 className="text-2xl font-mono">&gt {resume.role}</h2>
         </div>
 
         {/* right */}
@@ -118,7 +118,7 @@ export default function EmailPage(resume: Resume) {
         </div>
       </div>
     </Layout>
-  );
+  )
 }
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
@@ -127,8 +127,8 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
       owner: "goforjohnny@icloud.com",
       ...JOHNNYS_RESUME,
     },
-  };
-};
+  }
+}
 
 const JOHNNYS_RESUME: Resume = {
   title: "Johnny Domino's Resume",
@@ -350,11 +350,11 @@ const JOHNNYS_RESUME: Resume = {
       label: "🦖 Dealzilla",
       location: "A money saving experience",
       notes: [
-        "TL;DR Google Shopping but Google Shopping didn't exist at the time 😅",
+        "TLDR Google Shopping but Google Shopping didn't exist at the time 😅",
         "Employed web crawling and scraping techniques",
         "Provided the user with a rich and beautiful experience across many merchants",
         "_This project is no longer active_",
       ],
     },
   ],
-};
+}
