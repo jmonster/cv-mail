@@ -17,9 +17,9 @@ export interface Resume {
 export interface Details {
   label: string;
   location: string;
-  start: string;
-  end?: string;
   notes: string[];
+  start?: string;
+  end?: string;
   role?: string;
 }
 
