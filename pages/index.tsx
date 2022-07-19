@@ -1,86 +1,90 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import type { NextPage } from "next";
+import Head from "next/head";
+import Layout from "../components/layout";
+import { CopyToClipboard } from "react-copy-to-clipboard";
+import { tomlExample, tomlTemplate } from "../template";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <Layout>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="description" content="text in, resume out" />
+        <meta property="og:description" content="text in, resume out" />
+        <meta
+          property="og:title"
+          content="Write your resume in plain-text with email."
+        />
+        <meta property="og:image" content="/preview-email.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="601" />
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
+      <div className="comment-body markdown-body js-preview-body">
+        <h1 className="text-3xl">🎓 vitae.email</h1>
+        <p>Publish your resume from a plaintext email</p>
+        <p>
+          <a href="http://vitae.email/e/goforalex@icloud.com">
+            View sample resume
           </a>
-        </h1>
-
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-            pages/index.tsx
-          </code>
         </p>
 
-        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and its API.
-            </p>
-          </a>
+        <h2 id="toml" className="text-xl mt-4 mb-1">
+          Write and Publish
+        </h2>
+        <p>
+          <a href="mailto:toml@vitae.email?subject=This%20space%20intentionally%20left%20blank&body=title%20=%20%22%22%0Alabel%20=%20%22%22%0Arole%20=%20%22%22%0Alocation%20=%20%22%22%0Aemail%20=%20%22%22%0Alinkedin%20=%20%22linkedin.com/in/%22%0Agithub%20=%20%22github.com/%22%0A%0A%5B%5Beducation%5D%5D%0Alabel%20=%20%22%22%0Alocation%20=%20%22%22%0Astart%20=%20%22%22%0Aend%20=%20%22%22%0Anotes%20=%20%5B%0A%20%20%22%22,%0A%20%20%22%22%0A%5D%0A%0A%5B%5Beducation%5D%5D%0Alabel%20=%20%22%22%0Alocation%20=%20%22%22%0Astart%20=%20%22%22%0Aend%20=%20%22%22%0Anotes%20=%20%5B%0A%20%20%22%22,%0A%20%20%22%22%0A%5D%0A%0A%5B%5Bexperience%5D%5D%0Alabel%20=%20%22%22%0Alocation%20=%20%22%22%0Arole%20=%20%22%22%0Astart%20=%20%22%22%0Aend%20=%20%22%22%0Anotes%20=%20%5B%0A%20%20%22%22,%0A%20%20%22%22%0A%5D%0A%0A%5B%5Bexperience%5D%5D%0Alabel%20=%20%22%22%0Alocation%20=%20%22%22%0Arole%20=%20%22%22%0Astart%20=%20%22%22%0Aend%20=%20%22%22%0Anotes%20=%20%5B%0A%20%20%22%22,%0A%20%20%22%22%0A%5D%0A%0A%5B%5Bskills%5D%5D%0Anotes%20=%20%5B%0A%20%20%22%22,%0A%20%20%22%22%0A%5D%0A%0A%5B%5Btools%5D%5D%0Anotes%20=%20%5B%0A%20%20%22%22,%0A%20%20%22%22%0A%5D%0A%0A%5B%5Bprojects%5D%5D%0Alabel%20=%20%22%22%0Alocation%20=%20%22%22%0Anotes%20=%20%5B%0A%20%20%22%22,%0A%20%20%22%22%0A%5D">
+            Send an email
+          </a>{" "}
+          to{" "}
+          <span className="bg-indigo-100 dark:bg-indigo-900 p-1 rounded-sm">
+            toml@vitae.email
+          </span>{" "}
+          with a message utilizing the template format shown below
+        </p>
 
-          <a
-            href="https://nextjs.org/learn"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+        <h2 className="text-xl mt-4 mb-1">View and Share</h2>
+        <div className="mb-2">
+          <p>
+            Visit{" "}
+            <span className="bg-indigo-100 dark:bg-indigo-900 p-1">
+              https://vitae.email/e/
+              <span className="font-semibold">email-address</span>
+            </span>
+          </p>
+          <p>
+            <span className="text-xs">
+              If your email address is{" "}
+              <span className="font-medium bg-green-50 dark:bg-green-900">
+                carol@hr.com
+              </span>{" "}
+              then your resume is available at{" "}
+              <span className="bg-gray-50 dark:bg-gray-900">
+                https://vitae.email/e/
+                <span className="font-medium bg-green-50 dark:bg-green-900">
+                  carol@hr.com
+                </span>
+              </span>
+            </span>
+          </p>
         </div>
-      </main>
 
-      <footer className="flex h-24 w-full items-center justify-center border-t">
-        <a
-          className="flex items-center justify-center gap-2"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </a>
-      </footer>
-    </div>
-  )
-}
+        <h2 id="toml" className="text-xl mt-4 mb-1">
+          Template
+        </h2>
+        <div className="text-xs bg-gray-50 dark:bg-gray-800 p-2 overflow-hidden rounded">
+          <div className="mt-2 mb-4">
+            <CopyToClipboard text={tomlTemplate} onCopy={() => {}}>
+              <span className="bold bg-indigo-100 border-indigo-500 dark:bg-indigo-900 dark:border-indigo-400 p-1 cursor-pointer rounded border-2">
+                copy template to clipboard
+              </span>
+            </CopyToClipboard>
+          </div>
+          <pre>{tomlExample}</pre>
+        </div>
+      </div>
+    </Layout>
+  );
+};
 
-export default Home
+export default Home;
