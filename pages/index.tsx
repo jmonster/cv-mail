@@ -3,6 +3,7 @@ import Head from "next/head"
 import Layout from "../components/layout"
 import { CopyToClipboard } from "react-copy-to-clipboard"
 import { tomlExample, tomlTemplate } from "../template"
+import Link from "next/link"
 
 const Home: NextPage = () => {
   return (
@@ -24,9 +25,7 @@ const Home: NextPage = () => {
         <h1 className="text-3xl">🎓 vitae.email</h1>
         <p>Publish your resume from a plaintext email</p>
         <p>
-          <a href="http://vitae.email/e/goforalex@icloud.com">
-            View sample resume
-          </a>
+          <Link href="/e/goforjohnny@icloud.com">View sample resume</Link>
         </p>
 
         <h2 id="toml" className="text-xl mt-4 mb-1">
