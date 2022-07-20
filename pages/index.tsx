@@ -31,6 +31,9 @@ const Home: NextPage = () => {
         <h2 id="toml" className="text-xl mt-4 mb-1">
           Write and Publish
         </h2>
+        <p className="text-red-500 bg-red-100 border-solid border-2 border-red-500 font-bold p-1 mb-1">
+          We are not currently accepting new users.
+        </p>
         <p>
           <a href="mailto:toml@vitae.email?subject=This%20space%20intentionally%20left%20blank&body=title%20=%20%22%22%0Alabel%20=%20%22%22%0Arole%20=%20%22%22%0Alocation%20=%20%22%22%0Aemail%20=%20%22%22%0Alinkedin%20=%20%22linkedin.com/in/%22%0Agithub%20=%20%22github.com/%22%0A%0A%5B%5Beducation%5D%5D%0Alabel%20=%20%22%22%0Alocation%20=%20%22%22%0Astart%20=%20%22%22%0Aend%20=%20%22%22%0Anotes%20=%20%5B%0A%20%20%22%22,%0A%20%20%22%22%0A%5D%0A%0A%5B%5Beducation%5D%5D%0Alabel%20=%20%22%22%0Alocation%20=%20%22%22%0Astart%20=%20%22%22%0Aend%20=%20%22%22%0Anotes%20=%20%5B%0A%20%20%22%22,%0A%20%20%22%22%0A%5D%0A%0A%5B%5Bexperience%5D%5D%0Alabel%20=%20%22%22%0Alocation%20=%20%22%22%0Arole%20=%20%22%22%0Astart%20=%20%22%22%0Aend%20=%20%22%22%0Anotes%20=%20%5B%0A%20%20%22%22,%0A%20%20%22%22%0A%5D%0A%0A%5B%5Bexperience%5D%5D%0Alabel%20=%20%22%22%0Alocation%20=%20%22%22%0Arole%20=%20%22%22%0Astart%20=%20%22%22%0Aend%20=%20%22%22%0Anotes%20=%20%5B%0A%20%20%22%22,%0A%20%20%22%22%0A%5D%0A%0A%5B%5Bskills%5D%5D%0Anotes%20=%20%5B%0A%20%20%22%22,%0A%20%20%22%22%0A%5D%0A%0A%5B%5Btools%5D%5D%0Anotes%20=%20%5B%0A%20%20%22%22,%0A%20%20%22%22%0A%5D%0A%0A%5B%5Bprojects%5D%5D%0Alabel%20=%20%22%22%0Alocation%20=%20%22%22%0Anotes%20=%20%5B%0A%20%20%22%22,%0A%20%20%22%22%0A%5D">
             Send an email
