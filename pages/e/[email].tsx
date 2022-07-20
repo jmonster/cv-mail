@@ -79,7 +79,7 @@ export default function EmailPage(resume: Resume) {
         {/* left */}
         <div className="col-span-7 print:col-span-5 md:col-span-5">
           <h1 className="text-4xl">{resume.label}</h1>
-          <h2 className="text-2xl font-mono">&gt {resume.role}</h2>
+          <h2 className="text-2xl font-mono">&gt; {resume.role}</h2>
         </div>
 
         {/* right */}
@@ -122,239 +122,24 @@ export default function EmailPage(resume: Resume) {
 }
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
-  return {
-    props: {
-      owner: "goforjohnny@icloud.com",
-      ...JOHNNYS_RESUME,
-    },
+  try {
+    const urlEmailMatch = context.resolvedUrl.match(/\/e\/([^\?]+)/)
+    const owner = urlEmailMatch && urlEmailMatch.length > 1 ? urlEmailMatch[1] : null
+    if (!owner) throw new Error(`Invalid email: ${context.resolvedUrl}`)
+
+    const resume = await(await fetch(`https://s3.amphetamem.es/resumes/${owner}.json`)).json()
+    if (!resume.title) throw new Error(`Missing resume title (i.e. person's name)`)
+    
+    return {
+      props: {
+        owner,
+        ...resume
+      },
+    }
+  } catch (err) {
+    return {
+      notFound: true,
+  };
   }
 }
 
-const JOHNNYS_RESUME: Resume = {
-  title: "Johnny Domino's Resume",
-  label: "Johnny Domino",
-  role: "Software Engineer",
-  location: "Pittsburgh, PA",
-  email: "goforjohnny@icloud.com",
-  linkedin: "linkedin.com/in/jmonster",
-  github: "github.com/jmonster",
-  education: [
-    {
-      label: "Carnegie Mellon University",
-      location: "Pittsburgh, PA",
-      start: "August 2006",
-      end: "December 2009",
-      notes: [
-        "Bachelors of Science in **Computer Science**\n\nwith a Minor in _Multimedia Production_\n",
-      ],
-    },
-    {
-      label: "Apple Cocoa Camp",
-      location: "Cupertino, CA",
-      start: "Summer 2009",
-      notes: [
-        "Apple Cocoa Camp was an experiment within [Apple University](https://en.wikipedia.org/wiki/Apple_University) to train students in various aspects of Apple's technology and culture",
-      ],
-    },
-  ],
-  experience: [
-    {
-      label: "Volition",
-      location: "Remote (San Francisco)",
-      role: "Software Architect",
-      start: "August 2021",
-      end: "Present",
-      notes: [
-        "E-Commerce focused development",
-        "Written in TypeScript",
-        "Tools like [PostgreSQL](https://www.postgresql.org), [ElasticSearch](https://www.elastic.co/what-is/elasticsearch), [Graphile Worker](https://github.com/graphile/worker) + [Migrate](https://github.com/graphile/migrate), [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API), [Puppeteer](https://github.com/puppeteer/puppeteer)",
-        "Build data acquisition tooling for gig-workers that accelerate our efforts",
-        "Document and communicate processes rigorously",
-      ],
-    },
-    {
-      label: "Heroku",
-      location: "Remote (San Francisco)",
-      role: "Lead Software Engineer",
-      start: "November 2014",
-      end: "December 2020",
-      notes: [
-        "Created Enterprise Web Applications in Full-Stack JavaScript",
-        "Built [dashboard.heroku.com](https://dashboard.heroku.com), [data.heroku.com](https://data.heroku.com), [status.heroku.com](https://status.heroku.com) and marketing pages",
-        "Employed Ember.JS, Node.JS, [SocketIO](https://socket.io) and [SSE](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events)",
-        "Prioritized accessibility with heavy usage of [ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) attributes",
-        "Represented Heroku at technical conferences including [GitHub Universe](https://githubuniverse.com) and [EmberConf](https://emberconf.com)",
-        "Engagement with stakeholders from design, product and marketing",
-        "Collaborative workplace through the use of [Request for Comments (RFCs)](https://en.wikipedia.org/wiki/Request_for_Comments) and [Architectural Decision Records (ADRs)](https://adr.github.io)",
-        "Performed code reviews and acted as a mentor for colleagues",
-        "Guided summer intern projects",
-        "Authored and reviewed entries on [the Heroku Engineering Blog](https://blog.heroku.com/engineering)",
-      ],
-    },
-    {
-      label: "Branding Brand",
-      location: "Pittsburgh, PA",
-      role: "Director of Architecture",
-      start: "April 2013",
-      end: "October 2014",
-      notes: [
-        "Led the architecture team of 10 engineers",
-        "Created ambitious Web Applications with Ember.JS",
-        "Authored backend API services in JavaScript, Ruby, and PHP",
-        "Accelerated deliverability with reusable native libraries for our iOS and Android apps",
-        "Trained engineering team leads to become experts of our architecture and tooling",
-        "Collaborated with sales on feasibility and ROI",
-        "Integrated a CMS component into our product to give our client's on-demand control",
-        "Advised the DevOps team",
-        "I contributed directly to most of the company's IP",
-        "Worked with eBay, Sephora, Victoria's Secret, Crate & Barrel, et al on site and remotely",
-      ],
-    },
-    {
-      label: "Branding Brand",
-      location: "Pittsburgh, PA",
-      role: "Engineering Manager (API)",
-      start: "November 2012",
-      end: "April 2013",
-      notes: [
-        "Trained and managed a team of 10 whom became leaders at the company",
-      ],
-    },
-    {
-      label: "Branding Brand",
-      location: "Pittsburgh, PA",
-      role: "Principal Software Engineer",
-      start: "December 2011",
-      end: "November 2012",
-      notes: [
-        "Reduced infrastructure costs while improving performance by orders of magnitude each",
-        "Unified the company's technology stack behind Javascript",
-        "Improved employee retention and satisfaction ",
-      ],
-    },
-    {
-      label: "Branding Brand",
-      location: "Pittsburgh, PA",
-      role: "Frontend Software Engineer",
-      start: "October 2011",
-      end: "December 2011",
-      notes: [
-        "Developed mobile web apps for brands such as eBay, Sephora, Costco, Crate and Barrel, Victoria's Secret, Macy's, Dick's Sporting Goods, Dollar General, Toys R Us, and more",
-        "Developed native iOS apps for Sephora and American Eagle",
-        "Redesigned and implemented v2 of the company's core product",
-        "Reported directly to the CEO for the remainder of my employment",
-      ],
-    },
-    {
-      label: "UPMC's Technology Development Center",
-      location: "Pittsburgh, PA",
-      role: "Software Engineer",
-      start: "July 2010",
-      end: "September 2011",
-      notes: [
-        "Led R&D of all projects",
-        "Technologies spanning backend services, frontend web, and mobile iOS clients",
-        "Utilized Ruby on Rails and Apple's iPhone SDK",
-        "Coordinated regularly with engineering, design, product, and medical professionals",
-        "Reported directly to senior staff",
-      ],
-    },
-    {
-      label:
-        "Carnegie Mellon University's Software Engineering Institute The CERT Division",
-      location: "Pittsburgh, PA",
-      start: "April 2009",
-      end: "July 2010",
-      notes: [
-        "Developed e-learning solutions",
-        "Contributed to an online social network with an emphasis on participant engagement",
-        "Ported the [Remote Desktop Protocol (RDP)](https://docs.microsoft.com/en-us/troubleshoot/windows-server/remote/understanding-remote-desktop-protocol) to ActionScript",
-      ],
-    },
-    {
-      label: "FAA Technical Institute",
-      location: "Egg Harbor, NJ",
-      role: "CO-OP",
-      start: "Summer 2008",
-      notes: ["Contributed to the development of their Java flight simulator"],
-    },
-    {
-      label: "Victoria's Secret",
-      location: "Altoona, PA",
-      role: "Sales Associate",
-      start: "Summer 2006",
-      notes: [
-        "Supported a customer-centric culture, where the full energy and activity of the store team are focused on delivering highly satisfying customer experiences",
-      ],
-    },
-  ],
-  skills: [
-    {
-      notes: [
-        "Software Architecture\n\nResearch & Development (R&D)\n\nPrototyping\n",
-        "Design\n\nUser Experience\n\nHuman Computer Interaction\n",
-        "E-commerce\n\nMarketing\n\nAnalytics\n\nGrowth\n",
-        "Collaboration, Teamwork\n\nCode Reviews\n\nFeedback\n",
-        "Leadership\n\nAdvocate, Ally\n",
-        "Customer success",
-      ],
-    },
-  ],
-  tools: [
-    {
-      notes: [
-        "[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML),\n[CSS](https://developer.mozilla.org/en-US/docs/Web/HTML/Applying_color),\n[SVG](https://developer.mozilla.org/en-US/docs/Web/SVG),\n[TypeScript](https://www.typescriptlang.org),\n[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript),\n[Ember.js](https://emberjs.com),\n[SproutCore](https://sproutcore.com),\n[D3.js](https://d3js.org),\n[React](https://reactjs.org),\n[Next.js](https://nextjs.org),\n[Vue](https://vuejs.org),\n[Lit](https://lit.dev),\n[TailwindCSS](http://tailwindcss.com),\n[tachyons](https://tachyons.io),\n[i18n](https://en.wikipedia.org/wiki/Internationalization_and_localization),\n[jQuery](https://github.com/jquery/jquery),\n[cheerio](https://www.npmjs.com/package/cheerio)\n",
-        "[Node.js](https://nodejs.org/en/),\n[Express](https://expressjs.com),\n[Koa](https://koajs.com),\n[Hapi](https://hapi.dev),\n[Ruby on Rails](https://rubyonrails.org),\n[Sinatra](http://sinatrarb.com),\n[Elixir](https://elixir-lang.org),\n[Phoenix](https://www.phoenixframework.org),\n[Java](https://en.wikipedia.org/wiki/Java_(programming_language))\n",
-        "[Mocha](https://mochajs.org), [QUnit](https://qunitjs.com), [Jasmine](https://jasmine.github.io), [Chai](https://www.chaijs.com), [Jest](https://jestjs.io), [Lab](https://hapi.dev/module/lab/), [Puppeteer](https://developers.google.com/web/tools/puppeteer)\n",
-        "[Adobe](http://adobe.com),\n[Affinity](http://affinity.serif.com),\n[Figma](https://www.figma.com/),\n[Sketch](https://www.sketch.com),\n[InVision](https://www.invisionapp.com)\n",
-        "[PostgreSQL](https://www.postgresql.org),\n[Redis](http://redis.io),\n[Firebase](https://firebase.google.com),\n[ElasticSearch](https://www.elastic.co),\n[Splunk](https://www.splunk.com),\n[meilisearch](https://www.meilisearch.com),\n[typesense](https://typesense.org),\n[MongoDB](https://www.mongodb.com),\n[Graphile Migrate](https://github.com/graphile/migrate),\n[Graphile Worker](https://github.com/graphile/worker),\n[fastq](https://www.npmjs.com/package/fastq)\n",
-        "[Heroku](https://www.heroku.com),\n[Amazon Web Services (AWS)](https://aws.amazon.com),\n[Netlify](http://netlify.com),\n[Google Cloud Services (GCS)](https://cloud.google.com)\n",
-        "[GitHub](https://github.com),\n[GitLab](https://about.gitlab.com),\n[Slack](https://slack.com),\n[Trello](https://trello.com),\n[Shortcut](http://shortcut.com),\n[Google Workspace](https://workspace.google.com),\n[Zoom](https://zoom.us) \n",
-      ],
-    },
-  ],
-  references: [
-    {
-      notes: [
-        "[Jeremy Herrman](https://www.linkedin.com/in/jherrm/)\n\nCTO, [Volition](https://govolition.com)\n",
-        "[Joey Rahimi](https://www.linkedin.com/in/joeyrahimi)\n\nCOO, [Aiken House Investments](https://www.aikenhouse.com/team/joey-rahimi)\n",
-        "[Ameesh Kappor](https://www.linkedin.com/in/ameeshkapoor)\n\nHead of Engineering, [412-FOOD](https://412foodrescue.org/about-us/)\n",
-        "[Mike Stoltz](https://www.linkedin.com/in/jherrm/)\n\nSoftware Engineer, [Argo AI](https://www.argo.ai)\n",
-      ],
-    },
-  ],
-  projects: [
-    {
-      label: "🤣 Amphetamemes",
-      location: "https://amphetamem.es",
-      notes: [
-        "Instant access to millions of screen-caps from the most quotable shows and movies",
-      ],
-    },
-    {
-      label: "🎓 vitae.email",
-      location: "https://vitae.email",
-      notes: [
-        "Publish your resume from a plaintext email -- much like the one you're reading",
-      ],
-    },
-    {
-      label: "🏕 Jellystone",
-      location: "Run your studio remotely",
-      notes: [
-        "Jellystone (as in, Yogi's Jellystone Park), is a [WebRTC-based](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API) product that enables peer-to-peer video calls without relying on any external products or services. This makes it simpler, cheaper, faster and more secure",
-        "_This project was discontinued due to abysmal [WebRTC](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API) support in Safari_",
-      ],
-    },
-    {
-      label: "🦖 Dealzilla",
-      location: "A money saving experience",
-      notes: [
-        "TLDR Google Shopping but Google Shopping didn't exist at the time 😅",
-        "Employed web crawling and scraping techniques",
-        "Provided the user with a rich and beautiful experience across many merchants",
-        "_This project is no longer active_",
-      ],
-    },
-  ],
-}

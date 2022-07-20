@@ -1,4 +1,5 @@
 export interface Resume {
+  owner: string
   title: string
   label: string
   role: string
