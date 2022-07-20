@@ -1,10 +1,35 @@
-import ReactMarkdown from "react-markdown";
-import { Details, Skill, Project } from "../types/resume";
+import ReactMarkdown from "react-markdown"
+import { Details, Skill, Project } from "../types/resume"
 
 type Sections = {
-  title: string;
-  collection: Details[];
-};
+  title: string
+  collection: Details[]
+}
+
+function opportunityTitleFor(label: string, location: string, role?: string) {
+  if (location && location.length > 0 && role && role.length > 0) {
+    return (
+      <h4>
+        <span className="font-bold">{label}</span>,{" "}
+        <span className="underline">{role}</span>{" "}
+        <span className="text-xs">({location})</span>
+      </h4>
+    )
+  } else if (location && location.length > 0) {
+    return (
+      <h4>
+        <span className="font-bold">{label}</span>{" "}
+        <span className="text-xs">({location})</span>
+      </h4>
+    )
+  } else {
+    return (
+      <h4>
+        <span className="font-bold">{label}</span>
+      </h4>
+    )
+  }
+}
 
 function Opportunity({ title, collection }: Sections) {
   return (
@@ -19,13 +44,7 @@ function Opportunity({ title, collection }: Sections) {
             ({ label, location, role, start, end, notes }, idx) => {
               const item = (
                 <li key={idx} className="unbreakable mb-4">
-                  <h4>
-                    <span className="font-bold">{label}</span>
-                    {location && location.length > 0 && `, ${location}`}
-                    {role &&
-                      role.length > 0 &&
-                      ` <span class="block">-- ${role}</span>`}
-                  </h4>
+                  {opportunityTitleFor(label, location, role)}
 
                   <h5 className="text-sm text-gray-500 dark:text-gray-300 font-light uppercase mb-1">
                     {start} {end && ` - ${end}`}
@@ -41,18 +60,18 @@ function Opportunity({ title, collection }: Sections) {
                           >
                             <ReactMarkdown>{n}</ReactMarkdown>
                           </li>
-                        );
+                        )
                       })}
                   </ul>
                 </li>
-              );
+              )
 
-              return item;
+              return item
             }
           )}
       </ul>
     </div>
-  );
+  )
 }
 
-export default Opportunity;
+export default Opportunity
