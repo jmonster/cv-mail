@@ -33,7 +33,7 @@ function opportunityTitleFor(label: string, location: string, role?: string) {
 
 function Opportunity({ title, collection }: Sections) {
   return (
-    <div className="opportunity my-4">
+    <div className="opportunity md:my-4">
       <h3 className="text-sm mb-2 text-indigo-700 dark:text-indigo-300 uppercase font-bold">
         {title}
       </h3>

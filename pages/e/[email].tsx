@@ -102,15 +102,17 @@ export default function EmailPage(resume: Resume) {
             <Opportunity title="Experience" collection={resume.experience} />
           )}
           {resume.projects && (
-            <span className="print:hidden">
-              <Opportunity title="Projects" collection={resume.projects} />
-            </span>
+            <Opportunity title="Projects" collection={resume.projects} />
           )}
         </div>
 
         {/* right */}
         <div className="col-span-7 print:col-span-2 md:col-span-2 print:text-xs">
-          {resume.skills && <Aside title="Skills" collection={resume.skills} />}
+          <span className="hidden md:block">
+            {resume.skills && (
+              <Aside title="Skills" collection={resume.skills} />
+            )}
+          </span>
           {resume.tools && <Aside title="Tools" collection={resume.tools} />}
           {resume.references && (
             <Aside title="References" collection={resume.references} />

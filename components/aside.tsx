@@ -11,7 +11,7 @@ type Sections = {
 
 function Aside({ title, collection }: Sections) {
   return (
-    <div className="opportunity my-4">
+    <div className="opportunity md:my-4">
       <h3 className="text-sm text-indigo-700 dark:text-indigo-300 mb-2 uppercase font-bold">
         {title}
       </h3>
