@@ -21,7 +21,9 @@
       "location": "Cupertino, CA",
       "start": "Summer 2009",
       "notes": [
-        "Apple Cocoa Camp was an experiment within [Apple University](https://en.wikipedia.org/wiki/Apple_University) to train students in various aspects of Apple's technology and culture"
+        "Apple Cocoa Camp was an experiment within [Apple University](https://en.wikipedia.org/wiki/Apple_University)",
+        "Engineers and authors taught us the in-and-outs of iOS app development",
+        "I was 1 of only 20 students admitted into the program in 2009"
       ]
     }
   ],
@@ -29,33 +31,37 @@
     {
       "label": "Volition",
       "location": "Remote",
-      "role": "Software Architect",
+      "role": "Principal Software Engineer",
       "start": "August 2021",
       "end": "Present",
       "notes": [
-        "E-Commerce focused; \"the Amazon of industrial parts\"",
-        "Reimagined platform architecture and produced a faster (+ cheaper) replacement",
-        "Built data acquisition tooling (employed by gig-workers) to accelerate company goals",
-        "Document and communicate processes rigorously",
-        "Services include [PostgreSQL](https://www.postgresql.org), [ElasticSearch](https://www.elastic.co/what-is/elasticsearch), [Graphile Worker](https://github.com/graphile/worker) + [Migrate](https://github.com/graphile/migrate), [Puppeteer](https://github.com/puppeteer/puppeteer)"
+        "E-Commerce focused; described as \"the Amazon.com of industrial parts\"",
+        "Reimagined platform architecture; improved productivity and performance",
+        "Built data acquisition tooling including web crawlers and parsers",
+        "Collaborated with colleagues spanning global timezones (Americas, Europe)",
+        "Employed [TypeScript](https://www.typescriptlang.org), [PostgreSQL](https://www.postgresql.org), [ElasticSearch](https://www.elastic.co/what-is/elasticsearch), [Graphile Worker](https://github.com/graphile/worker) + [Migrate](https://github.com/graphile/migrate), [Puppeteer](https://github.com/puppeteer/puppeteer)"
       ]
     },
     {
-      "label": "Heroku",
+      "label": "Heroku (Salesforce)",
       "location": "Remote",
       "role": "Lead Software Engineer",
       "start": "November 2014",
       "end": "December 2020",
       "notes": [
-        "Built [dashboard.heroku.com](https://dashboard.heroku.com), [data.heroku.com](https://data.heroku.com), [status.heroku.com](https://status.heroku.com) and marketing pages",
+        "Made and maintained [dashboard.heroku.com](https://dashboard.heroku.com), [data.heroku.com](https://data.heroku.com), [status.heroku.com](https://status.heroku.com)",
+        "Launched and maintained an API that powered our web app's features",
         "Employed [Ember.JS](https://emberjs.com), [Node.JS](https://nodejs.org/en/), [SocketIO](https://socket.io), [SSE](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events), [D3.js](https://d3js.org), et al",
+        "Leveraged Figma, Sketch and Invision to collaborate with design and product",
         "Prioritized accessibility with heavy usage of [ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) attributes",
         "Represented Heroku at technical conferences including [GitHub Universe](https://githubuniverse.com) and [EmberConf](https://emberconf.com)",
         "Frequent engagement with stakeholders from design, product and marketing",
-        "Practiced a collaborative workplace through the use of [Request for Comments (RFCs)](https://en.wikipedia.org/wiki/Request_for_Comments) and [Architectural Decision Records (ADRs)](https://adr.github.io)",
+        "Practiced a collaborative workplace through the use of  and [Architectural Decision Records (ADRs)](https://adr.github.io)",
+        "Collaborative workplace utilizing [Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments) and [Architectural Decision Records](https://adr.github.io)",
         "Authored and reviewed entries on [the Heroku Engineering Blog](https://blog.heroku.com/engineering)",
         "Performed code reviews and acted as a mentor for colleagues",
-        "Guided summer intern projects"
+        "Guided summer intern projects",
+        "Collaborated with colleagues spanning global timezones (Americas, Japan, Europe)"
       ]
     },
     {
@@ -65,18 +71,20 @@
       "start": "April 2013",
       "end": "October 2014",
       "notes": [
-        "Assembled and led the architecture team of 10 engineers",
+        "Assembled and led the architecture team comprised of 10 engineers",
         "Created web apps with [Ember.JS](https://emberjs.com)",
-        "Authored backend API services in JavaScript, Ruby, and PHP",
+        "Authored backend API services in JavaScript and Ruby",
         "Accelerated deliverability with reusable native libraries for our iOS and Android apps",
         "Trained engineering team leads to become experts of our architecture and tooling",
         "Collaborated with sales on feasibility and ROI",
-        "Integrated a CMS component into our product to give our client's on-demand control",
+        "Built and integrated a CMS solution into our products, giving our client's direct control",
         "Contributed directly to most of the company's IP",
+        "Practiced both program development and hands-on software development",
         "Advised the DevOps team",
-        "Reported directely to the CEO",
         "Worked onsite at eBay and Google",
-        "Worked remotely with Sephora, Victoria's Secret, Crate & Barrel, and many others"
+        "Worked remotely with Sephora, Victoria's Secret, Crate & Barrel, and many others",
+        "Collaborated both in office and remotely",
+        "Reported directely to the CEO"
       ]
     },
     {
@@ -86,8 +94,11 @@
       "start": "November 2012",
       "end": "April 2013",
       "notes": [
-        "Trained and managed a team of 7",
-        "My direct reports quickly became leaders and managers within the company"
+        "Trained and managed a team of 5",
+        "These direct reports graduated to become project leads",
+        "Created strategic road-maps and collaborated with engineers to accomplish them",
+        "Designed a framework for generating cross-merchant Commerce APIs",
+        "Reported directely to the CEO"
       ]
     },
     {
@@ -99,7 +110,8 @@
       "notes": [
         "Reduced infrastructure costs while improving performance by orders of magnitude",
         "Unified the company's technology stack behind Javascript",
-        "Improved employee retention and satisfaction "
+        "Improved employee retention and satisfaction",
+        "Reported directely to the CEO"
       ]
     },
     {
@@ -111,8 +123,7 @@
       "notes": [
         "Developed mobile web apps for brands such as eBay, Sephora, Costco, Crate and Barrel, Victoria's Secret, Macy's, Dick's Sporting Goods, Dollar General, Toys R Us, and more",
         "Developed native iOS apps for Sephora and American Eagle",
-        "Redesigned and implemented v2 of the company's core product",
-        "Reported directly to the CEO for the remainder of my employment"
+        "Prototyped a new/better product solution which earned me an immediate promotion"
       ]
     },
     {
@@ -134,8 +145,9 @@
       "start": "April 2009",
       "end": "July 2010",
       "notes": [
-        "Contributed to an online social network with an emphasis on participant engagement",
+        "Implemented a virtual lab designer which automates the creation/configuration of virtual machines",
         "Ported the [Remote Desktop Protocol (RDP)](https://docs.microsoft.com/en-us/troubleshoot/windows-server/remote/understanding-remote-desktop-protocol) to ActionScript",
+        "Contributed to an online social network with an emphasis on participant engagement",
         "Developed e-learning solutions with [CERT](https://www.sei.cmu.edu/about/divisions/cert/)"
       ]
     },
@@ -144,7 +156,7 @@
       "location": "Egg Harbor, NJ",
       "role": "CO-OP",
       "start": "Summer 2008",
-      "notes": ["Contributed to the development of their Java flight simulator"]
+      "notes": ["Contributed to the development of their flight simulator"]
     },
     {
       "label": "Victoria's Secret",
@@ -162,7 +174,7 @@
         "Software Architecture\n\nResearch & Development (R&D)\n\nPrototyping\n",
         "Design\n\nUser Experience\n\nHuman Computer Interaction\n",
         "E-commerce\n\nMarketing\n\nAnalytics\n\nGrowth\n",
-        "Collaboration, Teamwork\n\nCode Reviews\n\nFeedback\n",
+        "Remote and Onsite\n\nCollaboration, Teamwork\n\nCode Reviews\n\nFeedback\n",
         "Leadership\n\nAdvocate, Ally\n",
         "Customer success"
       ]
@@ -196,9 +208,9 @@
       "notes": [
         "[https://carpeme.me](https://carpeme.me)",
         "Find scenes from quotable shows with just a few words",
-        "Meme-importing via CLI written in JavaScript employing FFMPEG and S3 (object storage)",
-        "Meme-displaying via the NEXT.js React Framework",
-        "Meme-searching powered by [meilisearch](https://www.meilisearch.com)"
+        "Administration via a CLI written in JavaScript employing FFMPEG and S3 (object storage)",
+        "Client application via the NEXT.js React Framework",
+        "Search powered by [ElasticSearch](https://www.elastic.co) and [meilisearch](https://www.meilisearch.com)"
       ]
     },
     {
