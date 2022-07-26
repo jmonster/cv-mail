@@ -70,9 +70,9 @@ export default function EmailPage(resume: Resume) {
       <Head>
         <meta property="og:locale" content="en_US" />
         <meta property="og:title" content={resume.title} />
-        <meta property="og:image" content="/preview.jpg" />
-        <meta property="og:image:width" content="1664" />
-        <meta property="og:image:height" content="962" />
+        <meta property="og:image" content="/johnny-portrait.jpg" />
+        <meta property="og:image:width" content="512" />
+        <meta property="og:image:height" content="512" />
       </Head>
 
       <div className="grid grid-cols-7 gap-8 mb-4 print:mx-8 print:mt-8">
