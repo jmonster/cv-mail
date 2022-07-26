@@ -4,6 +4,7 @@ import Aside from "../components/aside"
 import { GetServerSideProps } from "next"
 import { Resume } from "../types/resume"
 import Head from "next/head"
+import props from "../resume.json"
 
 type EmailArgs = {
   email?: string
@@ -123,24 +124,6 @@ export default function EmailPage(resume: Resume) {
   )
 }
 
-export const getServerSideProps: GetServerSideProps = async (context) => {
-  try {
-    const owner = "goforjohnny@icloud.com"
-    const resume = await (
-      await fetch(`https://s3.amphetamem.es/resumes/${owner}.json`)
-    ).json()
-    if (!resume.title)
-      throw new Error(`Missing resume title (i.e. person's name)`)
-
-    return {
-      props: {
-        owner,
-        ...resume,
-      },
-    }
-  } catch (err) {
-    return {
-      notFound: true,
-    }
-  }
+export const getStaticProps: GetServerSideProps = async (context) => {
+  return { props: props }
 }

@@ -1,0 +1,233 @@
+{
+  "title": "Johnny Domino's Resume",
+  "label": "Johnny Domino",
+  "role": "Software Engineer",
+  "location": "Pittsburgh, PA",
+  "email": "goforjohnny@icloud.com",
+  "linkedin": "linkedin.com/in/jmonster",
+  "github": "github.com/jmonster",
+  "education": [
+    {
+      "label": "Carnegie Mellon University",
+      "location": "Pittsburgh, PA",
+      "start": "August 2006",
+      "end": "December 2009",
+      "notes": [
+        "Bachelors of Science in **Computer Science**\n\nwith a Minor in _Multimedia Production_\n"
+      ]
+    },
+    {
+      "label": "Apple Cocoa Camp",
+      "location": "Cupertino, CA",
+      "start": "Summer 2009",
+      "notes": [
+        "Apple Cocoa Camp was an experiment within [Apple University](https://en.wikipedia.org/wiki/Apple_University) to train students in various aspects of Apple's technology and culture"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "label": "Volition",
+      "location": "Remote",
+      "role": "Software Architect",
+      "start": "August 2021",
+      "end": "Present",
+      "notes": [
+        "E-Commerce focused; \"the Amazon of industrial parts\"",
+        "Reimagined platform architecture and produced a faster (+ cheaper) replacement",
+        "Built data acquisition tooling (employed by gig-workers) to accelerate company goals",
+        "Document and communicate processes rigorously",
+        "Services include [PostgreSQL](https://www.postgresql.org), [ElasticSearch](https://www.elastic.co/what-is/elasticsearch), [Graphile Worker](https://github.com/graphile/worker) + [Migrate](https://github.com/graphile/migrate), [Puppeteer](https://github.com/puppeteer/puppeteer)"
+      ]
+    },
+    {
+      "label": "Heroku",
+      "location": "Remote",
+      "role": "Lead Software Engineer",
+      "start": "November 2014",
+      "end": "December 2020",
+      "notes": [
+        "Built [dashboard.heroku.com](https://dashboard.heroku.com), [data.heroku.com](https://data.heroku.com), [status.heroku.com](https://status.heroku.com) and marketing pages",
+        "Employed [Ember.JS](https://emberjs.com), [Node.JS](https://nodejs.org/en/), [SocketIO](https://socket.io), [SSE](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events), [D3.js](https://d3js.org), et al",
+        "Prioritized accessibility with heavy usage of [ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) attributes",
+        "Represented Heroku at technical conferences including [GitHub Universe](https://githubuniverse.com) and [EmberConf](https://emberconf.com)",
+        "Frequent engagement with stakeholders from design, product and marketing",
+        "Practiced a collaborative workplace through the use of [Request for Comments (RFCs)](https://en.wikipedia.org/wiki/Request_for_Comments) and [Architectural Decision Records (ADRs)](https://adr.github.io)",
+        "Authored and reviewed entries on [the Heroku Engineering Blog](https://blog.heroku.com/engineering)",
+        "Performed code reviews and acted as a mentor for colleagues",
+        "Guided summer intern projects"
+      ]
+    },
+    {
+      "label": "Branding Brand",
+      "location": "Pittsburgh, PA",
+      "role": "Director of Architecture",
+      "start": "April 2013",
+      "end": "October 2014",
+      "notes": [
+        "Assembled and led the architecture team of 10 engineers",
+        "Created web apps with [Ember.JS](https://emberjs.com)",
+        "Authored backend API services in JavaScript, Ruby, and PHP",
+        "Accelerated deliverability with reusable native libraries for our iOS and Android apps",
+        "Trained engineering team leads to become experts of our architecture and tooling",
+        "Collaborated with sales on feasibility and ROI",
+        "Integrated a CMS component into our product to give our client's on-demand control",
+        "Contributed directly to most of the company's IP",
+        "Advised the DevOps team",
+        "Reported directely to the CEO",
+        "Worked onsite at eBay and Google",
+        "Worked remotely with Sephora, Victoria's Secret, Crate & Barrel, and many others"
+      ]
+    },
+    {
+      "label": "Branding Brand",
+      "location": "Pittsburgh, PA",
+      "role": "Engineering Manager (API)",
+      "start": "November 2012",
+      "end": "April 2013",
+      "notes": [
+        "Trained and managed a team of 7",
+        "My direct reports quickly became leaders and managers within the company"
+      ]
+    },
+    {
+      "label": "Branding Brand",
+      "location": "Pittsburgh, PA",
+      "role": "Principal Software Engineer",
+      "start": "December 2011",
+      "end": "November 2012",
+      "notes": [
+        "Reduced infrastructure costs while improving performance by orders of magnitude",
+        "Unified the company's technology stack behind Javascript",
+        "Improved employee retention and satisfaction "
+      ]
+    },
+    {
+      "label": "Branding Brand",
+      "location": "Pittsburgh, PA",
+      "role": "Frontend Software Engineer",
+      "start": "October 2011",
+      "end": "December 2011",
+      "notes": [
+        "Developed mobile web apps for brands such as eBay, Sephora, Costco, Crate and Barrel, Victoria's Secret, Macy's, Dick's Sporting Goods, Dollar General, Toys R Us, and more",
+        "Developed native iOS apps for Sephora and American Eagle",
+        "Redesigned and implemented v2 of the company's core product",
+        "Reported directly to the CEO for the remainder of my employment"
+      ]
+    },
+    {
+      "label": "UPMC's Technology Development Center",
+      "location": "Pittsburgh, PA",
+      "role": "Software Engineer",
+      "start": "July 2010",
+      "end": "September 2011",
+      "notes": [
+        "Led R&D of all projects",
+        "Technologies spanning backend services, frontend web, and mobile iOS clients",
+        "Utilized Ruby on Rails and Apple's iPhone SDK",
+        "Coordinated regularly with engineering, design, product, and medical professionals"
+      ]
+    },
+    {
+      "label": "Carnegie Mellon University's Software Engineering Institute",
+      "location": "Pittsburgh, PA",
+      "start": "April 2009",
+      "end": "July 2010",
+      "notes": [
+        "Contributed to an online social network with an emphasis on participant engagement",
+        "Ported the [Remote Desktop Protocol (RDP)](https://docs.microsoft.com/en-us/troubleshoot/windows-server/remote/understanding-remote-desktop-protocol) to ActionScript",
+        "Developed e-learning solutions with [CERT](https://www.sei.cmu.edu/about/divisions/cert/)"
+      ]
+    },
+    {
+      "label": "FAA Technical Institute",
+      "location": "Egg Harbor, NJ",
+      "role": "CO-OP",
+      "start": "Summer 2008",
+      "notes": ["Contributed to the development of their Java flight simulator"]
+    },
+    {
+      "label": "Victoria's Secret",
+      "location": "Altoona, PA",
+      "role": "Sales Associate",
+      "start": "Summer 2006",
+      "notes": [
+        "Supported a customer-centric culture, where the full energy and activity of the store team are focused on delivering highly satisfying customer experiences"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "notes": [
+        "Software Architecture\n\nResearch & Development (R&D)\n\nPrototyping\n",
+        "Design\n\nUser Experience\n\nHuman Computer Interaction\n",
+        "E-commerce\n\nMarketing\n\nAnalytics\n\nGrowth\n",
+        "Collaboration, Teamwork\n\nCode Reviews\n\nFeedback\n",
+        "Leadership\n\nAdvocate, Ally\n",
+        "Customer success"
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "notes": [
+        "[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML),\n[CSS](https://developer.mozilla.org/en-US/docs/Web/HTML/Applying_color),\n[SVG](https://developer.mozilla.org/en-US/docs/Web/SVG),\n[TypeScript](https://www.typescriptlang.org),\n[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript),\n[Ember.js](https://emberjs.com),\n[SproutCore](https://sproutcore.com),\n[D3.js](https://d3js.org),\n[React](https://reactjs.org),\n[Next.js](https://nextjs.org),\n[Vue](https://vuejs.org),\n[Lit](https://lit.dev),\n[TailwindCSS](http://tailwindcss.com),\n[tachyons](https://tachyons.io),\n[i18n](https://en.wikipedia.org/wiki/Internationalization_and_localization),\n[jQuery](https://github.com/jquery/jquery),\n[cheerio](https://www.npmjs.com/package/cheerio)\n",
+        "[Node.js](https://nodejs.org/en/),\n[Express](https://expressjs.com),\n[Koa](https://koajs.com),\n[Hapi](https://hapi.dev),\n[Ruby on Rails](https://rubyonrails.org),\n[Sinatra](http://sinatrarb.com),\n[Elixir](https://elixir-lang.org),\n[Phoenix](https://www.phoenixframework.org),\n[Java](https://en.wikipedia.org/wiki/Java_(programming_language))\n",
+        "[Mocha](https://mochajs.org), [QUnit](https://qunitjs.com), [Jasmine](https://jasmine.github.io), [Chai](https://www.chaijs.com), [Jest](https://jestjs.io), [Lab](https://hapi.dev/module/lab/), [Puppeteer](https://developers.google.com/web/tools/puppeteer)\n",
+        "[Adobe](http://adobe.com),\n[Affinity](http://affinity.serif.com),\n[Figma](https://www.figma.com/),\n[Sketch](https://www.sketch.com),\n[InVision](https://www.invisionapp.com)\n",
+        "[PostgreSQL](https://www.postgresql.org),\n[Redis](http://redis.io),\n[Firebase](https://firebase.google.com),\n[ElasticSearch](https://www.elastic.co),\n[Splunk](https://www.splunk.com),\n[meilisearch](https://www.meilisearch.com),\n[typesense](https://typesense.org),\n[MongoDB](https://www.mongodb.com),\n[Graphile Migrate](https://github.com/graphile/migrate),\n[Graphile Worker](https://github.com/graphile/worker)\n",
+        "[Heroku](https://www.heroku.com),\n[Vercel](https://vercel.com),\n[Amazon Web Services (AWS)](https://aws.amazon.com),\n[Netlify](http://netlify.com),\n[Google Cloud Services (GCS)](https://cloud.google.com)\n",
+        "[GitHub](https://github.com),\n[GitLab](https://about.gitlab.com),\n[Slack](https://slack.com),\n[Trello](https://trello.com),\n[Shortcut](http://shortcut.com),\n[Google Workspace](https://workspace.google.com),\n[Zoom](https://zoom.us) \n"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "notes": [
+        "[Jeremy Herrman](https://www.linkedin.com/in/jherrm/)\n\nCTO, [Volition](https://govolition.com)\n",
+        "[Ameesh Kappor](https://www.linkedin.com/in/ameeshkapoor)\n\nHead of Engineering, [412-FOOD](https://412foodrescue.org/about-us/)\n",
+        "[Mike Stoltz](https://www.linkedin.com/in/mike-stoltz-81bb9794)\n\nSoftware Engineer, [Argo AI](https://www.argo.ai)\n"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "label": "🤣 Carpe Memes",
+      "notes": [
+        "[https://carpeme.me](https://carpeme.me)",
+        "Find scenes from quotable shows with just a few words",
+        "Meme-importing via CLI written in JavaScript employing FFMPEG and S3 (object storage)",
+        "Meme-displaying via the NEXT.js React Framework",
+        "Meme-searching powered by [meilisearch](https://www.meilisearch.com)"
+      ]
+    },
+    {
+      "label": "🎓 vitae.email",
+      "notes": [
+        "[https://vitae-email.vercel.app](https://vitae-email.vercel.app)",
+        "Publish your resume from a plaintext email",
+        "Prototyped with the [Flareact](https://flareact.com) framework; ran on Cloudflare Workers",
+        "Ported to TypeScript with the NEXT.js framework; now running on Vercel",
+        "_New users are disabled_"
+      ]
+    },
+    {
+      "label": "🧘‍♀️ Jellystone",
+      "notes": [
+        "A [WebRTC-based](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API) product that enables peer-to-peer video calls without relying on any external products or services. This makes it simpler, cheaper, faster and more secure",
+        "This project was motivated by the need of small businesses to stay operational despite COVID lockdowns. I sough to eliminate the friction related to coordinating video calls via Google Meet/Zoom with unsavvy clients",
+        "Target/initial customers were yoga instructors",
+        "_This project was discontinued due to untenable [WebRTC](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API) support in Safari_"
+      ]
+    },
+    {
+      "label": "🛍 Dealzilla",
+      "notes": [
+        "It's like Google Shopping, but Google Shopping didn't exist at the time 😅",
+        "Provided the user with a rich and beautiful experience across many merchants",
+        "Employed web crawling and scraping techniques",
+        "_This project has been discontinued_"
+      ]
+    }
+  ]
+}
