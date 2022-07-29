@@ -96,12 +96,14 @@ export default function EmailPage(resume: Resume) {
       <div className="grid grid-cols-7 gap-8 print:mx-8 print:mb-8">
         {/* left */}
         <div className="col-span-7 print:col-span-5 md:col-span-5">
-          {resume.education && (
-            <Opportunity title="Education" collection={resume.education} />
-          )}
           {resume.experience && (
             <Opportunity title="Experience" collection={resume.experience} />
           )}
+          <hr />
+          {resume.education && (
+            <Opportunity title="Education" collection={resume.education} />
+          )}
+          <hr />
           {resume.projects && (
             <Opportunity title="Projects" collection={resume.projects} />
           )}
