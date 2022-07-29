@@ -211,8 +211,8 @@
       "notes": [
         "[https://carpeme.me](https://carpeme.me)",
         "Find scenes from quotable shows with just a few words",
-        "Administration via a CLI written in JavaScript employing FFMPEG and S3 (object storage)",
-        "Client application via the [NEXT.js](https://nextjs.org) React Framework",
+        "CLI written in JavaScript utilizing ffmpeg and s3 (object storage)",
+        "Web app employs the [NEXT.js](https://nextjs.org) React Framework",
         "Search powered by [ElasticSearch](https://www.elastic.co) and [meilisearch](https://www.meilisearch.com)"
       ]
     },
