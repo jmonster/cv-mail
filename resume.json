@@ -50,7 +50,7 @@
       "end": "December 2020",
       "notes": [
         "Made and maintained [dashboard.heroku.com](https://dashboard.heroku.com), [data.heroku.com](https://data.heroku.com), [status.heroku.com](https://status.heroku.com)",
-        "Launched and maintained an API that powered our web app's features",
+        "Launched and maintained an API providing Real Time™ updates on Dashboard",
         "Leveraged Figma, Sketch and Invision to collaborate with design and product",
         "Prioritized accessibility with heavy usage of [ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) attributes",
         "Represented Heroku at conferences including [GitHub Universe](https://githubuniverse.com) and [EmberConf](https://emberconf.com)",
