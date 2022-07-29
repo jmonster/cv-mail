@@ -13,7 +13,8 @@
       "start": "August 2006",
       "end": "December 2009",
       "notes": [
-        "Bachelors of Science in **Computer Science**\n\nwith a Minor in _Multimedia Production_\n"
+        "Bachelors of Science in **Computer Science**",
+        "Minor in **Multimedia Production**\n"
       ]
     },
     {
@@ -22,8 +23,7 @@
       "start": "Summer 2009",
       "notes": [
         "Apple Cocoa Camp was an experiment within [Apple University](https://en.wikipedia.org/wiki/Apple_University)",
-        "Engineers and authors taught us the in-and-outs of iOS app development",
-        "I was 1 of only 20 students admitted into the program in 2009"
+        "Engineers and authors taught us the in-and-outs of iOS app development"
       ]
     }
   ],
@@ -39,7 +39,7 @@
         "Reimagined platform architecture; improved productivity and performance",
         "Built data acquisition tooling including web crawlers and parsers",
         "Collaborated with colleagues spanning global timezones (Americas, Europe)",
-        "Employed [TypeScript](https://www.typescriptlang.org), [PostgreSQL](https://www.postgresql.org), [ElasticSearch](https://www.elastic.co/what-is/elasticsearch), [Graphile Worker](https://github.com/graphile/worker) + [Migrate](https://github.com/graphile/migrate), [Puppeteer](https://github.com/puppeteer/puppeteer)"
+        "[TypeScript](https://www.typescriptlang.org), [PostgreSQL](https://www.postgresql.org), [Puppeteer](https://github.com/puppeteer/puppeteer), [ElasticSearch](https://www.elastic.co/what-is/elasticsearch), [Graphile Worker](https://github.com/graphile/worker), [Migrate](https://github.com/graphile/migrate)"
       ]
     },
     {
@@ -51,17 +51,16 @@
       "notes": [
         "Made and maintained [dashboard.heroku.com](https://dashboard.heroku.com), [data.heroku.com](https://data.heroku.com), [status.heroku.com](https://status.heroku.com)",
         "Launched and maintained an API that powered our web app's features",
-        "Employed [Ember.JS](https://emberjs.com), [Node.JS](https://nodejs.org/en/), [SocketIO](https://socket.io), [SSE](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events), [D3.js](https://d3js.org), et al",
         "Leveraged Figma, Sketch and Invision to collaborate with design and product",
         "Prioritized accessibility with heavy usage of [ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) attributes",
-        "Represented Heroku at technical conferences including [GitHub Universe](https://githubuniverse.com) and [EmberConf](https://emberconf.com)",
+        "Represented Heroku at conferences including [GitHub Universe](https://githubuniverse.com) and [EmberConf](https://emberconf.com)",
         "Frequent engagement with stakeholders from design, product and marketing",
-        "Practiced a collaborative workplace through the use of  and [Architectural Decision Records (ADRs)](https://adr.github.io)",
-        "Collaborative workplace utilizing [Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments) and [Architectural Decision Records](https://adr.github.io)",
+        "Collaboration via [Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments) and [Architectural Decision Records](https://adr.github.io)",
         "Authored and reviewed entries on [the Heroku Engineering Blog](https://blog.heroku.com/engineering)",
         "Performed code reviews and acted as a mentor for colleagues",
         "Guided summer intern projects",
-        "Collaborated with colleagues spanning global timezones (Americas, Japan, Europe)"
+        "Collaborated with colleagues spanning global timezones (Americas, Japan, Europe)",
+        "[Ember.JS](https://emberjs.com), [Node.JS](https://nodejs.org/en/), [SocketIO](https://socket.io), [SSE](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events), [D3.js](https://d3js.org), [Sinatra](http://sinatrarb.com)"
       ]
     },
     {
@@ -84,7 +83,8 @@
         "Worked onsite at eBay and Google",
         "Worked remotely with Sephora, Victoria's Secret, Crate & Barrel, and many others",
         "Collaborated both in office and remotely",
-        "Reported directely to the CEO"
+        "Reported directely to the CEO",
+        "[Ember.JS](https://emberjs.com), [Node.JS](https://nodejs.org/en/)"
       ]
     },
     {
@@ -98,7 +98,7 @@
         "These direct reports graduated to become project leads",
         "Created strategic road-maps and collaborated with engineers to accomplish them",
         "Designed a framework for generating cross-merchant Commerce APIs",
-        "Reported directely to the CEO"
+        "[Node.JS](https://nodejs.org/en/), [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)"
       ]
     },
     {
@@ -111,7 +111,8 @@
         "Reduced infrastructure costs while improving performance by orders of magnitude",
         "Unified the company's technology stack behind Javascript",
         "Improved employee retention and satisfaction",
-        "Reported directely to the CEO"
+        "Reported directely to the CEO",
+        "[Node.JS](https://nodejs.org/en/), [Ruby on Rails](https://rubyonrails.org), [PHP](https://www.php.net), [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)"
       ]
     },
     {
@@ -121,9 +122,10 @@
       "start": "October 2011",
       "end": "December 2011",
       "notes": [
-        "Developed mobile web apps for brands such as eBay, Sephora, Costco, Crate and Barrel, Victoria's Secret, Macy's, Dick's Sporting Goods, Dollar General, Toys R Us, and more",
+        "Developed mobile apps for eBay, Sephora, Costco, Crate and Barrel, Victoria's Secret, Macy's, Dick's Sporting Goods, Dollar General, Toys R Us, and more",
         "Developed native iOS apps for Sephora and American Eagle",
-        "Prototyped a new/better product solution which earned me an immediate promotion"
+        "Prototyped v2 of our core technology; it was immediately adopted",
+        "[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS), [iPhone SDK](https://developer.apple.com/ios/)"
       ]
     },
     {
@@ -135,8 +137,8 @@
       "notes": [
         "Led R&D of all projects",
         "Technologies spanning backend services, frontend web, and mobile iOS clients",
-        "Utilized Ruby on Rails and Apple's iPhone SDK",
-        "Coordinated regularly with engineering, design, product, and medical professionals"
+        "Coordinated regularly with engineering, design, product, and medical professionals",
+        "[iPhone SDK](https://developer.apple.com/ios/), [Ruby on Rails](https://rubyonrails.org)"
       ]
     },
     {
@@ -145,10 +147,11 @@
       "start": "April 2009",
       "end": "July 2010",
       "notes": [
-        "Implemented a virtual lab designer which automates the creation/configuration of virtual machines",
-        "Ported the [Remote Desktop Protocol (RDP)](https://docs.microsoft.com/en-us/troubleshoot/windows-server/remote/understanding-remote-desktop-protocol) to ActionScript",
-        "Contributed to an online social network with an emphasis on participant engagement",
-        "Developed e-learning solutions with [CERT](https://www.sei.cmu.edu/about/divisions/cert/)"
+        "Implemented a virtual lab designer automating the configuration of virtual machines",
+        "Ported [Remote Desktop Protocol (RDP)](https://docs.microsoft.com/en-us/troubleshoot/windows-server/remote/understanding-remote-desktop-protocol) to ActionScript",
+        "Contributed to an online social network",
+        "Developed e-learning solutions with [CERT](https://www.sei.cmu.edu/about/divisions/cert/)",
+        "[ASP.NET MVC](https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/getting-started), [Adobe/Apache Flex](https://flex.apache.org)"
       ]
     },
     {
@@ -183,7 +186,7 @@
   "tools": [
     {
       "notes": [
-        "[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML),\n[CSS](https://developer.mozilla.org/en-US/docs/Web/HTML/Applying_color),\n[SVG](https://developer.mozilla.org/en-US/docs/Web/SVG),\n[TypeScript](https://www.typescriptlang.org),\n[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript),\n[Ember.js](https://emberjs.com),\n[SproutCore](https://sproutcore.com),\n[D3.js](https://d3js.org),\n[React](https://reactjs.org),\n[Next.js](https://nextjs.org),\n[Vue](https://vuejs.org),\n[Lit](https://lit.dev),\n[TailwindCSS](http://tailwindcss.com),\n[tachyons](https://tachyons.io),\n[i18n](https://en.wikipedia.org/wiki/Internationalization_and_localization),\n[jQuery](https://github.com/jquery/jquery),\n[cheerio](https://www.npmjs.com/package/cheerio)\n",
+        "[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML),\n[CSS](https://developer.mozilla.org/en-US/docs/Web/HTML/Applying_color),\n[SVG](https://developer.mozilla.org/en-US/docs/Web/SVG),\n[TypeScript](https://www.typescriptlang.org),\n[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript),\n[Ember.js](https://emberjs.com),\n[SproutCore](https://sproutcore.com),\n[D3.js](https://d3js.org),\n[React](https://reactjs.org),\n[NEXT.js](https://nextjs.org),\n[Vue](https://vuejs.org),\n[Lit](https://lit.dev),\n[TailwindCSS](http://tailwindcss.com),\n[tachyons](https://tachyons.io),\n[i18n](https://en.wikipedia.org/wiki/Internationalization_and_localization),\n[jQuery](https://github.com/jquery/jquery),\n[cheerio](https://www.npmjs.com/package/cheerio)\n",
         "[Node.js](https://nodejs.org/en/),\n[Express](https://expressjs.com),\n[Koa](https://koajs.com),\n[Hapi](https://hapi.dev),\n[Ruby on Rails](https://rubyonrails.org),\n[Sinatra](http://sinatrarb.com),\n[Elixir](https://elixir-lang.org),\n[Phoenix](https://www.phoenixframework.org),\n[Java](https://en.wikipedia.org/wiki/Java_(programming_language))\n",
         "[Mocha](https://mochajs.org), [QUnit](https://qunitjs.com), [Jasmine](https://jasmine.github.io), [Chai](https://www.chaijs.com), [Jest](https://jestjs.io), [Lab](https://hapi.dev/module/lab/), [Puppeteer](https://developers.google.com/web/tools/puppeteer)\n",
         "[Adobe](http://adobe.com),\n[Affinity](http://affinity.serif.com),\n[Figma](https://www.figma.com/),\n[Sketch](https://www.sketch.com),\n[InVision](https://www.invisionapp.com)\n",
@@ -209,7 +212,7 @@
         "[https://carpeme.me](https://carpeme.me)",
         "Find scenes from quotable shows with just a few words",
         "Administration via a CLI written in JavaScript employing FFMPEG and S3 (object storage)",
-        "Client application via the NEXT.js React Framework",
+        "Client application via the [NEXT.js](https://nextjs.org) React Framework",
         "Search powered by [ElasticSearch](https://www.elastic.co) and [meilisearch](https://www.meilisearch.com)"
       ]
     },
@@ -219,7 +222,7 @@
         "[https://vitae-email.vercel.app](https://vitae-email.vercel.app)",
         "Publish your resume from a plaintext email",
         "Prototyped with the [Flareact](https://flareact.com) framework; ran on Cloudflare Workers",
-        "Ported to TypeScript with the NEXT.js framework; now running on Vercel",
+        "Ported to TypeScript with the [NEXT.js](https://nextjs.org) framework; now running on Vercel",
         "_New users are disabled_"
       ]
     },
@@ -239,6 +242,13 @@
         "Provided the user with a rich and beautiful experience across many merchants",
         "Employed web crawling and scraping techniques",
         "_This project has been discontinued_"
+      ]
+    },
+    {
+      "label": "💥 Chogger",
+      "notes": [
+        "Chogger let you create and share web comics online",
+        "We were an AlphaLab portfolio company"
       ]
     }
   ]
