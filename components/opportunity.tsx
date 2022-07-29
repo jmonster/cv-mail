@@ -56,7 +56,7 @@ function Opportunity({ title, collection }: Sections) {
                         return (
                           <li
                             key={idx}
-                            className="text-sm font-serif print:text-xs mb-2"
+                            className="text-sm font-serif print:text-xs "
                           >
                             <ReactMarkdown>{n}</ReactMarkdown>
                           </li>
