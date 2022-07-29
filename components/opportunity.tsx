@@ -50,7 +50,7 @@ function Opportunity({ title, collection }: Sections) {
                     {start} {end && ` - ${end}`}
                   </h5>
 
-                  <ul>
+                  <ul className="list-disc ml-4">
                     {notes &&
                       notes.map((n, idx) => {
                         return (
