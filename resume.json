@@ -201,12 +201,21 @@
     {
       "notes": [
         "[Jeremy Herrman](https://www.linkedin.com/in/jherrm/)\n\nCTO, [Volition](https://govolition.com)\n",
-        "[Ameesh Kappor](https://www.linkedin.com/in/ameeshkapoor)\n\nHead of Engineering, [412-FOOD](https://412foodrescue.org/about-us/)\n",
-        "[Mike Stoltz](https://www.linkedin.com/in/mike-stoltz-81bb9794)\n\nSoftware Engineer, [Argo AI](https://www.argo.ai)\n"
+        "[Ameesh Kappor](https://www.linkedin.com/in/ameeshkapoor/)\n\nHead of Engineering, [412-FOOD](https://412foodrescue.org/about-us/)\n",
+        "[Philipe Navarro](https://www.linkedin.com/in/philipe-navarro-1646a552/)\n\nPrincipal Engineer, [Salesforce](https://www.salesforce.com)\n"
       ]
     }
   ],
   "projects": [
+    {
+      "label": "🕹️ Ketamine Games",
+      "notes": [
+        "[https://ketamine.games](https://ketamine.games)",
+        "A research-backed gaming experience to improve your mental health",
+        "Developed in cooperation with Dr. Smith of Smith Ketamine Services",
+        "Web app employs the [NEXT.js](https://nextjs.org) React Framework"
+      ]
+    },
     {
       "label": "🤣 Carpe Memes",
       "notes": [
@@ -214,7 +223,7 @@
         "Find scenes from quotable shows with just a few words",
         "CLI written in JavaScript utilizing ffmpeg and s3 (object storage)",
         "Web app employs the [NEXT.js](https://nextjs.org) React Framework",
-        "Search powered by [ElasticSearch](https://www.elastic.co) and [meilisearch](https://www.meilisearch.com)"
+        "Search powered by [meilisearch](https://www.meilisearch.com)"
       ]
     },
     {
@@ -222,8 +231,8 @@
       "notes": [
         "[https://vitae-email.vercel.app](https://vitae-email.vercel.app)",
         "Publish your resume from a plaintext email",
-        "Prototyped with the [Flareact](https://flareact.com) framework; ran on Cloudflare Workers",
-        "Ported to TypeScript with the [NEXT.js](https://nextjs.org) framework; now running on Vercel",
+        "Prototyped with [Flareact](https://flareact.com) framework running on Cloudflare Workers",
+        "Rewritten with [NEXT.js](https://nextjs.org) framework running on Vercel",
         "_New users are disabled_"
       ]
     },
