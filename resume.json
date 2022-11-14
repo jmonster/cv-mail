@@ -8,36 +8,47 @@
   "github": "github.com/jmonster",
   "education": [
     {
-      "label": "Carnegie Mellon University",
-      "location": "Pittsburgh, PA",
-      "start": "August 2006",
-      "end": "December 2009",
       "notes": [
-        "Bachelors of Science in **Computer Science**",
-        "Minor in **Multimedia Production**\n"
-      ]
-    },
-    {
-      "label": "Apple Cocoa Camp",
-      "location": "Cupertino, CA",
-      "start": "Summer 2009",
-      "notes": [
-        "Apple Cocoa Camp was an experiment within [Apple University](https://en.wikipedia.org/wiki/Apple_University)",
-        "Engineers and authors taught us the in-and-outs of iOS app development"
+        "[Carnegie Mellon University](https://www.cmu.edu)\n\nB.S. in Computer Science\n\nMinor in Multimedia Production"
       ]
     }
   ],
   "experience": [
     {
+      "label": "Ketamine.Games (Medical Applications)",
+      "location": "Pittsburgh, PA",
+      "role": "Founder",
+      "start": "September 2022",
+      "end": "Present",
+      "notes": [
+        "Creating software to facilitate ketamine therapy and maximize clinical outcomes for patients suffering from severe depression and anxiety",
+        "Fostering a rapidly growing user-base through proactive community engagement",
+        "Mentored by ketamine specialist Dr. Scott Smith - Smith Ketamine Services",
+        "[https://ketamine.games](https://ketamine.games)"
+      ]
+    },
+    {
       "label": "Volition",
       "location": "Remote",
       "role": "Principal Software Engineer",
       "start": "August 2021",
-      "end": "Present",
+      "end": "June 2022",
       "notes": [
         "Built data acquisition tooling including web crawlers and scrapers",
         "Reimagined platform architecture to improve performance and reduced costs",
         "Orchestrated pods in Google Kubernetes Engine (GKE)"
+      ]
+    },
+    {
+      "label": "Carpe Memes",
+      "location": "Pittsburgh, PA",
+      "role": "Founder",
+      "start": "January 2021",
+      "end": "Present",
+      "notes": [
+        "Find scenes/quotes from your favorite shows, remix and share them instantly",
+        "Hosts more than 2 million scenes with operating costs measured in pennies",
+        "[https://carpeme.me](https://carpeme.me)"
       ]
     },
     {
@@ -50,38 +61,14 @@
         "Ported [dashboard.heroku.com](https://dashboard.heroku.com) from [Rails](https://rubyonrails.org) to [Ember.js](https://emberjs.com)",
         "Built [status.heroku.com](https://status.heroku.com) from scratch",
         "Maintained [data.heroku.com](https://data.heroku.com)",
-        "Prioritized accessibility in all of our efforts",
+        "Prioritized accessibility across all products",
         "Authored and reviewed entries on [the Heroku Engineering Blog](https://blog.heroku.com/engineering)",
-        "Frequent code reviews while being a mentor for colleagues",
+        "Frequent code reviews while being a mentor to colleagues",
         "Design collaboration through Figma, Sketch and Invision",
         "Worked on-call with frequent customer engagement",
         "Guided summer intern projects",
         "Org-wide collaboration via [Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments) and [Architectural Decision Records](https://adr.github.io)",
         "Represented Heroku at conferences including [GitHub Universe](https://githubuniverse.com) and [EmberConf](https://emberconf.com)"
-      ]
-    },
-    {
-      "label": "Ketamine.Games",
-      "location": "Pittsburgh, PA",
-      "role": "Founder",
-      "start": "October 2022",
-      "end": "Present",
-      "notes": [
-        "Conceived, designed and implemented research-backed gaming experiences",
-        "Fostering a rapidly growing user-base through proactive community engagement",
-        "Mentored by ketamine specialist [Dr. Smith](https://smithfamilymd.com)",
-        "[https://ketamine.games](https://ketamine.games)"
-      ]
-    },
-    {
-      "label": "Carpe Memes",
-      "location": "Pittsburgh, PA",
-      "role": "Founder",
-      "start": "January 2021",
-      "end": "Present",
-      "notes": [
-        "Find scenes/quotes from your favorite shows and remix/share them instantly, for free",
-        "[https://carpeme.me](https://carpeme.me)"
       ]
     },
     {
@@ -91,11 +78,11 @@
       "start": "April 2013",
       "end": "October 2014",
       "notes": [
-        "Remained an IC while leading a team of 10 engineers",
-        "Accelerated projects through better DevEx (web and native)",
-        "Authored API services in Node.js",
-        "Created web apps with [Ember.JS](https://emberjs.com), [Backbone.JS](https://backbonejs.org), and [Knockout.js](https://knockoutjs.com)",
-        "Reported directly to the C-level and engaged with them ~daily~ hourly"
+        "Remained an IC while managing a team of 10 engineers",
+        "Accelerated projects through better tooling (web apps, native apps, cloud services)",
+        "E-commerce services written in Node.js",
+        "Web apps via [Ember.JS](https://emberjs.com), [Backbone.JS](https://backbonejs.org), and [Knockout.js](https://knockoutjs.com)",
+        "Reported to C-level and engaged with them ~daily~ hourly"
       ]
     },
     {
@@ -117,7 +104,7 @@
       "end": "November 2012",
       "notes": [
         "Modernized the company's technology stack and processes to improve DevEx",
-        "Iterated on core IP while running A/B tests to maximize conversion"
+        "Iterated on core IP while conducting A/B tests to maximize conversion"
       ]
     },
     {
@@ -128,12 +115,12 @@
       "end": "December 2011",
       "notes": [
         "Prototyped v2 of our core technology and subsequently led all engineering efforts",
-        "Developed mobile web apps for eBay, Sephora, Costco, Crate and Barrel, Victoria's Secret, Macy's, Dick's Sporting Goods, Dollar General, Toys R Us, and more",
+        "Built mobile web apps for >100 E-commerce companies including eBay, Costco, and Macy's",
         "Developed native iOS apps for Sephora and American Eagle"
       ]
     },
     {
-      "label": "UPMC's Technology Development Center",
+      "label": "UPMC Technology Development Center",
       "location": "Pittsburgh, PA",
       "role": "Software Engineer",
       "start": "July 2010",
@@ -143,7 +130,7 @@
       ]
     },
     {
-      "label": "Carnegie Mellon University's Software Engineering Institute",
+      "label": "Carnegie Mellon University Software Engineering Institute",
       "location": "Pittsburgh, PA",
       "start": "April 2009",
       "end": "July 2010",
@@ -152,25 +139,17 @@
     {
       "label": "FAA Technical Institute",
       "location": "Egg Harbor, NJ",
-      "role": "CO-OP",
+      "role": "Internship",
       "start": "Summer 2008",
       "notes": ["Contributed to the development of the FAA's flight simulator"]
-    },
-    {
-      "label": "Victoria's Secret",
-      "location": "Altoona, PA",
-      "role": "Sales Associate",
-      "start": "Summer 2006",
-      "notes": [
-        "Supported a customer-centric culture, where the full energy and activity of the store team are focused on delivering highly satisfying customer experiences"
-      ]
     }
   ],
   "skills": [
     {
       "notes": [
-        "Software Architecture\n\nResearch & Development (R&D)\n\nPrototyping\n",
-        "Design\n\nUser Experience\n\nHuman Computer Interaction\n",
+        "Software Architecture\n\nResearch & Development\n",
+        "User Experience\n\nDesign\n\nPrototyping\n",
+        "Developer Experience (DevEx)\n\n Devleoper Operations (DevOps)\n",
         "E-commerce\n\nMarketing\n\nAnalytics\n\nGrowth\n",
         "Remote and Onsite\n\nCollaboration, Teamwork\n\nCode Reviews\n\nFeedback\n",
         "Leadership\n\nAdvocate, Ally\n",
@@ -195,8 +174,7 @@
     {
       "notes": [
         "[Jeremy Herrman](https://www.linkedin.com/in/jherrm/)\n\nCTO, [Volition](https://govolition.com)\n",
-        "[Ameesh Kapoor](https://www.linkedin.com/in/ameeshkapoor/)\n\nHead of Engineering, [412-FOOD](https://412foodrescue.org/about-us/)\n",
-        "[Philipe Navarro](https://www.linkedin.com/in/philipe-navarro-1646a552/)\n\nPrincipal Engineer, [Salesforce](https://www.salesforce.com)\n"
+        "[Ameesh Kapoor](https://www.linkedin.com/in/ameeshkapoor/)\n\nHead of Engineering, [412-FOOD](https://412foodrescue.org/about-us/)\n"
       ]
     }
   ]

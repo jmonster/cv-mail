@@ -76,7 +76,7 @@ export default function EmailPage(resume: Resume) {
         <meta property="og:image:height" content="512" />
       </Head>
 
-      <div className="grid grid-cols-7 gap-8 mb-4 print:mx-8 print:mt-8">
+      <div className="grid grid-cols-7 gap-2 mb-4">
         {/* left */}
         <div className="col-span-7 print:col-span-5 md:col-span-5">
           <h1 className="text-4xl">{resume.label}</h1>
@@ -93,16 +93,16 @@ export default function EmailPage(resume: Resume) {
         </div>
       </div>
 
-      <div className="grid grid-cols-7 gap-8 print:mx-8 print:mb-8">
+      <div className="grid grid-cols-7 gap-2">
         {/* left */}
         <div className="col-span-7 print:col-span-5 md:col-span-5">
           {resume.experience && (
             <Opportunity title="Experience" collection={resume.experience} />
           )}
-          <hr />
+          {/* <hr />
           {resume.education && (
             <Opportunity title="Education" collection={resume.education} />
-          )}
+          )} */}
           {/* <hr />
           {resume.projects && (
             <Opportunity title="Projects" collection={resume.projects} />
@@ -111,11 +111,16 @@ export default function EmailPage(resume: Resume) {
 
         {/* right */}
         <div className="col-span-7 print:col-span-2 md:col-span-2 print:text-xs">
-          <span className="hidden md:block">
+          {resume.education && (
+            <Aside title="Education" collection={resume.education} />
+          )}
+
+          <span className="">
             {resume.skills && (
               <Aside title="Skills" collection={resume.skills} />
             )}
           </span>
+
           {resume.tools && <Aside title="Tools" collection={resume.tools} />}
           {resume.references && (
             <Aside title="References" collection={resume.references} />
