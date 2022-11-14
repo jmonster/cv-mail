@@ -103,10 +103,10 @@ export default function EmailPage(resume: Resume) {
           {resume.education && (
             <Opportunity title="Education" collection={resume.education} />
           )}
-          <hr />
+          {/* <hr />
           {resume.projects && (
             <Opportunity title="Projects" collection={resume.projects} />
-          )}
+          )} */}
         </div>
 
         {/* right */}

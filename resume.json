@@ -35,11 +35,9 @@
       "start": "August 2021",
       "end": "Present",
       "notes": [
-        "E-Commerce focused; described as \"the Amazon.com of industrial parts\"",
-        "Reimagined platform architecture; improved productivity and performance",
-        "Built data acquisition tooling including web crawlers and parsers",
-        "Collaborated with colleagues spanning global timezones (Americas, Europe)",
-        "[TypeScript](https://www.typescriptlang.org), [PostgreSQL](https://www.postgresql.org), [Puppeteer](https://github.com/puppeteer/puppeteer), [ElasticSearch](https://www.elastic.co/what-is/elasticsearch), [Graphile Worker](https://github.com/graphile/worker), [Migrate](https://github.com/graphile/migrate)"
+        "Built data acquisition tooling including web crawlers and scrapers",
+        "Reimagined platform architecture to improve performance and reduced costs",
+        "Orchestrated pods in Google Kubernetes Engine (GKE)"
       ]
     },
     {
@@ -49,18 +47,41 @@
       "start": "November 2014",
       "end": "December 2020",
       "notes": [
-        "Owned [dashboard.heroku.com](https://dashboard.heroku.com), [data.heroku.com](https://data.heroku.com), [status.heroku.com](https://status.heroku.com)",
-        "Launched and maintained an API providing Real Time™ updates on Dashboard",
-        "Leveraged Figma, Sketch and Invision to collaborate with design and product",
-        "Prioritized accessibility with heavy usage of [ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) attributes",
-        "Represented Heroku at conferences including [GitHub Universe](https://githubuniverse.com) and [EmberConf](https://emberconf.com)",
-        "Frequent engagement with stakeholders from design, product and marketing",
-        "Collaboration via [Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments) and [Architectural Decision Records](https://adr.github.io)",
+        "Ported [dashboard.heroku.com](https://dashboard.heroku.com) from [Rails](https://rubyonrails.org) to [Ember.js](https://emberjs.com)",
+        "Built [status.heroku.com](https://status.heroku.com) from scratch",
+        "Maintained [data.heroku.com](https://data.heroku.com)",
+        "Prioritized accessibility in all of our efforts",
         "Authored and reviewed entries on [the Heroku Engineering Blog](https://blog.heroku.com/engineering)",
-        "Performed code reviews and acted as a mentor for colleagues",
+        "Frequent code reviews while being a mentor for colleagues",
+        "Design collaboration through Figma, Sketch and Invision",
+        "Worked on-call with frequent customer engagement",
         "Guided summer intern projects",
-        "Collaborated with colleagues spanning global timezones (Americas, Japan, Europe)",
-        "[Ember.JS](https://emberjs.com), [Node.JS](https://nodejs.org/en/), [SocketIO](https://socket.io), [SSE](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events), [D3.js](https://d3js.org), [Sinatra](http://sinatrarb.com)"
+        "Org-wide collaboration via [Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments) and [Architectural Decision Records](https://adr.github.io)",
+        "Represented Heroku at conferences including [GitHub Universe](https://githubuniverse.com) and [EmberConf](https://emberconf.com)"
+      ]
+    },
+    {
+      "label": "Ketamine.Games",
+      "location": "Pittsburgh, PA",
+      "role": "Founder",
+      "start": "October 2022",
+      "end": "Present",
+      "notes": [
+        "Conceived, designed and implemented research-backed gaming experiences",
+        "Fostering a rapidly growing user-base through proactive community engagement",
+        "Mentored by ketamine specialist [Dr. Smith](https://smithfamilymd.com)",
+        "[https://ketamine.games](https://ketamine.games)"
+      ]
+    },
+    {
+      "label": "Carpe Memes",
+      "location": "Pittsburgh, PA",
+      "role": "Founder",
+      "start": "January 2021",
+      "end": "Present",
+      "notes": [
+        "Find scenes/quotes from your favorite shows and remix/share them instantly, for free",
+        "[https://carpeme.me](https://carpeme.me)"
       ]
     },
     {
@@ -70,21 +91,11 @@
       "start": "April 2013",
       "end": "October 2014",
       "notes": [
-        "Assembled and led the architecture team comprised of 10 engineers",
-        "Created web apps with [Ember.JS](https://emberjs.com)",
-        "Authored backend API services in JavaScript and Ruby",
-        "Accelerated timelines via reusable libraries for our iOS and Android apps",
-        "Trained engineering team leads to become experts of our architecture and tooling",
-        "Collaborated with sales on feasibility and ROI",
-        "Built and integrated a CMS solution into our products, giving our client's direct control",
-        "Contributed directly to most of the company's IP",
-        "Toggled between program development and hands-on software development",
-        "Advised the DevOps team",
-        "Worked onsite at eBay and Google",
-        "Worked remotely with Sephora, Victoria's Secret, Crate & Barrel, and many others",
-        "Collaborated both in office and remotely",
-        "Reported directely to the CEO",
-        "[Ember.JS](https://emberjs.com), [Node.JS](https://nodejs.org/en/)"
+        "Remained an IC while leading a team of 10 engineers",
+        "Accelerated projects through better DevEx (web and native)",
+        "Authored API services in Node.js",
+        "Created web apps with [Ember.JS](https://emberjs.com), [Backbone.JS](https://backbonejs.org), and [Knockout.js](https://knockoutjs.com)",
+        "Reported directly to the C-level and engaged with them ~daily~ hourly"
       ]
     },
     {
@@ -94,11 +105,8 @@
       "start": "November 2012",
       "end": "April 2013",
       "notes": [
-        "Trained and managed a team of 5",
-        "These direct reports graduated to become project leads",
-        "Created strategic road-maps and collaborated with engineers to accomplish them",
-        "Designed a framework for generating cross-merchant Commerce APIs",
-        "[Node.JS](https://nodejs.org/en/), [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)"
+        "Recruited, trained and managed a team of 5 engineers",
+        "Designed frameworks and built tooling to support our rapid growth"
       ]
     },
     {
@@ -108,12 +116,8 @@
       "start": "December 2011",
       "end": "November 2012",
       "notes": [
-        "Reduced infrastructure costs by orders of magnitude",
-        "Increased performance by similar orders of magnitude",
-        "Unified the company's technology stack behind Javascript",
-        "Improved employee retention and satisfaction",
-        "Reported directely to the CEO",
-        "[Node.JS](https://nodejs.org/en/), [Ruby on Rails](https://rubyonrails.org), [PHP](https://www.php.net), [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)"
+        "Modernized the company's technology stack and processes to improve DevEx",
+        "Iterated on core IP while running A/B tests to maximize conversion"
       ]
     },
     {
@@ -123,10 +127,9 @@
       "start": "October 2011",
       "end": "December 2011",
       "notes": [
-        "Developed mobile apps for eBay, Sephora, Costco, Crate and Barrel, Victoria's Secret, Macy's, Dick's Sporting Goods, Dollar General, Toys R Us, and more",
-        "Developed native iOS apps for Sephora and American Eagle",
-        "Prototyped v2 of our core technology; it was immediately adopted",
-        "[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS), [iPhone SDK](https://developer.apple.com/ios/)"
+        "Prototyped v2 of our core technology and subsequently led all engineering efforts",
+        "Developed mobile web apps for eBay, Sephora, Costco, Crate and Barrel, Victoria's Secret, Macy's, Dick's Sporting Goods, Dollar General, Toys R Us, and more",
+        "Developed native iOS apps for Sephora and American Eagle"
       ]
     },
     {
@@ -136,10 +139,7 @@
       "start": "July 2010",
       "end": "September 2011",
       "notes": [
-        "Led R&D of all projects",
-        "Technologies spanning backend services, frontend web, and mobile iOS clients",
-        "Coordinated with technical and medical professionals",
-        "[iPhone SDK](https://developer.apple.com/ios/), [Ruby on Rails](https://rubyonrails.org)"
+        "Lead engineer of all projects spanning frontend, backend and native mobile apps"
       ]
     },
     {
@@ -147,20 +147,14 @@
       "location": "Pittsburgh, PA",
       "start": "April 2009",
       "end": "July 2010",
-      "notes": [
-        "Implemented a virtual lab designer",
-        "Ported [Remote Desktop Protocol (RDP)](https://docs.microsoft.com/en-us/troubleshoot/windows-server/remote/understanding-remote-desktop-protocol) to ActionScript",
-        "Contributed to an online social network",
-        "Developed e-learning solutions with [CERT](https://www.sei.cmu.edu/about/divisions/cert/)",
-        "[ASP.NET MVC](https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/getting-started), [Adobe/Apache Flex](https://flex.apache.org)"
-      ]
+      "notes": ["Contributed to the development of web apps"]
     },
     {
       "label": "FAA Technical Institute",
       "location": "Egg Harbor, NJ",
       "role": "CO-OP",
       "start": "Summer 2008",
-      "notes": ["Contributed to the development of their flight simulator"]
+      "notes": ["Contributed to the development of the FAA's flight simulator"]
     },
     {
       "label": "Victoria's Secret",
@@ -187,12 +181,12 @@
   "tools": [
     {
       "notes": [
-        "[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML),\n[CSS](https://developer.mozilla.org/en-US/docs/Web/HTML/Applying_color),\n[SVG](https://developer.mozilla.org/en-US/docs/Web/SVG),\n[TypeScript](https://www.typescriptlang.org),\n[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript),\n[Ember.js](https://emberjs.com),\n[SproutCore](https://sproutcore.com),\n[D3.js](https://d3js.org),\n[React](https://reactjs.org),\n[NEXT.js](https://nextjs.org),\n[Vue](https://vuejs.org),\n[Lit](https://lit.dev),\n[TailwindCSS](http://tailwindcss.com),\n[tachyons](https://tachyons.io),\n[i18n](https://en.wikipedia.org/wiki/Internationalization_and_localization),\n[jQuery](https://github.com/jquery/jquery),\n[cheerio](https://www.npmjs.com/package/cheerio)\n",
-        "[Node.js](https://nodejs.org/en/),\n[Express](https://expressjs.com),\n[Koa](https://koajs.com),\n[Hapi](https://hapi.dev),\n[Ruby on Rails](https://rubyonrails.org),\n[Sinatra](http://sinatrarb.com),\n[Elixir](https://elixir-lang.org),\n[Phoenix](https://www.phoenixframework.org),\n[Java](https://en.wikipedia.org/wiki/Java_(programming_language))\n",
+        "[TypeScript](https://www.typescriptlang.org),\n[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript),\n[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML),\n[CSS](https://developer.mozilla.org/en-US/docs/Web/HTML/Applying_color),\n[SVG](https://developer.mozilla.org/en-US/docs/Web/SVG),\n[Ember.js](https://emberjs.com),\n[SproutCore](https://sproutcore.com),\n[D3.js](https://d3js.org),\n[React](https://reactjs.org),\n[NEXT.js](https://nextjs.org),\n[Vue](https://vuejs.org),\n[Lit](https://lit.dev),\n[TailwindCSS](http://tailwindcss.com),\n[i18n](https://en.wikipedia.org/wiki/Internationalization_and_localization),\n[jQuery](https://github.com/jquery/jquery),\n",
+        "[Node.js](https://nodejs.org/en/),\n[Express](https://expressjs.com),\n[Koa](https://koajs.com),\n[Hapi](https://hapi.dev),\n[Ruby on Rails](https://rubyonrails.org),\n[Sinatra](http://sinatrarb.com),\n[Java](https://en.wikipedia.org/wiki/Java_(programming_language))\n",
         "[Mocha](https://mochajs.org), [QUnit](https://qunitjs.com), [Jasmine](https://jasmine.github.io), [Chai](https://www.chaijs.com), [Jest](https://jestjs.io), [Lab](https://hapi.dev/module/lab/), [Puppeteer](https://developers.google.com/web/tools/puppeteer)\n",
         "[Adobe](http://adobe.com),\n[Affinity](http://affinity.serif.com),\n[Figma](https://www.figma.com/),\n[Sketch](https://www.sketch.com),\n[InVision](https://www.invisionapp.com)\n",
         "[PostgreSQL](https://www.postgresql.org),\n[Redis](http://redis.io),\n[Firebase](https://firebase.google.com),\n[ElasticSearch](https://www.elastic.co),\n[Splunk](https://www.splunk.com),\n[meilisearch](https://www.meilisearch.com),\n[typesense](https://typesense.org),\n[MongoDB](https://www.mongodb.com),\n[Graphile Migrate](https://github.com/graphile/migrate),\n[Graphile Worker](https://github.com/graphile/worker)\n",
-        "[Heroku](https://www.heroku.com),\n[Vercel](https://vercel.com),\n[Amazon Web Services (AWS)](https://aws.amazon.com),\n[Netlify](http://netlify.com),\n[Google Cloud Services (GCS)](https://cloud.google.com)\n",
+        "[Cloudflare](https://www.cloudflare.com),\n[Amazon Web Services (AWS)](https://aws.amazon.com),\n[Google Cloud Services (GCS)](https://cloud.google.com),\n[Heroku](https://www.heroku.com),\n[Vercel](https://vercel.com),\n[Netlify](http://netlify.com)\n",
         "[GitHub](https://github.com),\n[GitLab](https://about.gitlab.com),\n[Slack](https://slack.com),\n[Trello](https://trello.com),\n[Shortcut](http://shortcut.com),\n[Google Workspace](https://workspace.google.com),\n[Zoom](https://zoom.us) \n"
       ]
     }
@@ -201,64 +195,8 @@
     {
       "notes": [
         "[Jeremy Herrman](https://www.linkedin.com/in/jherrm/)\n\nCTO, [Volition](https://govolition.com)\n",
-        "[Ameesh Kappor](https://www.linkedin.com/in/ameeshkapoor/)\n\nHead of Engineering, [412-FOOD](https://412foodrescue.org/about-us/)\n",
+        "[Ameesh Kapoor](https://www.linkedin.com/in/ameeshkapoor/)\n\nHead of Engineering, [412-FOOD](https://412foodrescue.org/about-us/)\n",
         "[Philipe Navarro](https://www.linkedin.com/in/philipe-navarro-1646a552/)\n\nPrincipal Engineer, [Salesforce](https://www.salesforce.com)\n"
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "label": "🕹️ Ketamine Games",
-      "notes": [
-        "[https://ketamine.games](https://ketamine.games)",
-        "A research-backed gaming experience to improve your mental health",
-        "Developed in cooperation with Dr. Smith of Smith Ketamine Services",
-        "Web app employs the [NEXT.js](https://nextjs.org) React Framework"
-      ]
-    },
-    {
-      "label": "🤣 Carpe Memes",
-      "notes": [
-        "[https://carpeme.me](https://carpeme.me)",
-        "Find scenes from quotable shows with just a few words",
-        "CLI written in JavaScript utilizing ffmpeg and s3 (object storage)",
-        "Web app employs the [NEXT.js](https://nextjs.org) React Framework",
-        "Search powered by [meilisearch](https://www.meilisearch.com)"
-      ]
-    },
-    {
-      "label": "🎓 vitae.email",
-      "notes": [
-        "[https://vitae-email.vercel.app](https://vitae-email.vercel.app)",
-        "Publish your resume from a plaintext email",
-        "Prototyped with [Flareact](https://flareact.com) framework running on Cloudflare Workers",
-        "Rewritten with [NEXT.js](https://nextjs.org) framework running on Vercel",
-        "_New users are disabled_"
-      ]
-    },
-    {
-      "label": "🧘‍♀️ Jellystone",
-      "notes": [
-        "A [WebRTC-based](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API) product that enables peer-to-peer video calls without relying on any external products or services. This makes it simpler, cheaper, faster and more secure",
-        "This project was motivated by the need of small businesses to stay operational despite COVID lockdowns. I sough to eliminate the friction related to coordinating video calls via Google Meet/Zoom with unsavvy clients",
-        "Target/initial customers were yoga instructors",
-        "_This project was discontinued due to untenable [WebRTC](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API) support in Safari_"
-      ]
-    },
-    {
-      "label": "🛍 Dealzilla",
-      "notes": [
-        "It's like Google Shopping, but Google Shopping didn't exist at the time 😅",
-        "Provided the user with a rich and beautiful experience across many merchants",
-        "Employed web crawling and scraping techniques",
-        "_This project has been discontinued_"
-      ]
-    },
-    {
-      "label": "💥 Chogger",
-      "notes": [
-        "Chogger let you create and share web comics online",
-        "We were an AlphaLab portfolio company"
       ]
     }
   ]

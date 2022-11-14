@@ -1,4 +1,5 @@
 import ReactMarkdown from "react-markdown"
+import remarkGfm from "remark-gfm"
 import { Details, Skill, Project } from "../types/resume"
 
 type Sections = {
@@ -58,7 +59,9 @@ function Opportunity({ title, collection }: Sections) {
                             key={idx}
                             className="text-sm font-serif print:text-xs "
                           >
-                            <ReactMarkdown>{n}</ReactMarkdown>
+                            <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                              {n}
+                            </ReactMarkdown>
                           </li>
                         )
                       })}
