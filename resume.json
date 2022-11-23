@@ -16,8 +16,7 @@
   "experience": [
     {
       "label": "Ketamine.Games (Medical Applications)",
-      "location": "Pittsburgh, PA",
-      "role": "Founder",
+      "role": "Founder / Engineer / Designer",
       "start": "September 2022",
       "end": "Present",
       "notes": [
@@ -30,7 +29,7 @@
     {
       "label": "Volition",
       "location": "Remote",
-      "role": "Principal Software Engineer",
+      "role": "Principal Full-Stack Software Engineer",
       "start": "August 2021",
       "end": "June 2022",
       "notes": [
@@ -42,7 +41,7 @@
     {
       "label": "Carpe Memes",
       "location": "Pittsburgh, PA",
-      "role": "Founder",
+      "role": "Founder / Engineer / Designer",
       "start": "January 2021",
       "end": "Present",
       "notes": [
@@ -55,13 +54,14 @@
     {
       "label": "Heroku (Salesforce)",
       "location": "Remote",
-      "role": "Lead Software Engineer",
+      "role": "Lead Full-Stack Software Engineer",
       "start": "November 2014",
       "end": "December 2020",
       "notes": [
-        "Ported [dashboard.heroku.com](https://dashboard.heroku.com) from [Rails](https://rubyonrails.org) to [Ember.js](https://emberjs.com)",
+        "Ported [dashboard.heroku.com](https://dashboard.heroku.com) to a client-side Web App including OAuth integration",
         "Built [status.heroku.com](https://status.heroku.com) from scratch",
         "Maintained [data.heroku.com](https://data.heroku.com)",
+        "Contributed to the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli) and [oclif](https://oclif.io) (an OSS CLI framework)",
         "Prioritized accessibility across all products",
         "Authored and reviewed entries on [the Heroku Engineering Blog](https://blog.heroku.com/engineering)",
         "Frequent code reviews while being a mentor to colleagues",
@@ -94,13 +94,14 @@
       "end": "April 2013",
       "notes": [
         "Recruited, trained and managed a team of 5 engineers",
-        "Designed frameworks and built tooling to support our rapid growth"
+        "Designed frameworks and built tooling to support our rapid growth",
+        "Sheparded in new workflows such as GitHub, Pull Requests, etc"
       ]
     },
     {
       "label": "Branding Brand",
       "location": "Pittsburgh, PA",
-      "role": "Principal Software Engineer",
+      "role": "Full-Stack Software Engineer",
       "start": "December 2011",
       "end": "November 2012",
       "notes": [
@@ -123,7 +124,7 @@
     {
       "label": "UPMC Technology Development Center",
       "location": "Pittsburgh, PA",
-      "role": "Software Engineer",
+      "role": "Full-Stack Software Engineer",
       "start": "July 2010",
       "end": "September 2011",
       "notes": [

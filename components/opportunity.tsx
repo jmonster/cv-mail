@@ -23,6 +23,13 @@ function opportunityTitleFor(label: string, location: string, role?: string) {
         <span className="text-xs">({location})</span>
       </h4>
     )
+  } else if (role && role.length > 0) {
+    return (
+      <h4>
+        <span className="font-bold">{label}</span>,{" "}
+        <span className="underline">{role}</span>{" "}
+      </h4>
+    )
   } else {
     return (
       <h4>
