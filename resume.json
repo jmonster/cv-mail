@@ -21,6 +21,7 @@
       "end": "Present",
       "notes": [
         "Creating software to facilitate ketamine therapy and maximize clinical outcomes for patients suffering from severe depression and anxiety",
+        "Responsive, Progressive Web App implemented in **React**, **Next.js**, & **TailwindCSS**",
         "Fostering a rapidly growing user-base through proactive community engagement",
         "Mentored by ketamine specialist Dr. Scott Smith - Smith Ketamine Services",
         "[https://ketamine.games](https://ketamine.games)"
@@ -33,7 +34,7 @@
       "start": "August 2021",
       "end": "June 2022",
       "notes": [
-        "Built data acquisition tooling including web crawlers and scrapers",
+        "Built data acquisition tooling including **web crawlers** and **scrapers**",
         "Reimagined platform architecture to improve performance and reduced costs",
         "Orchestrated pods in Google Kubernetes Engine (GKE)"
       ]
@@ -46,8 +47,7 @@
       "end": "Present",
       "notes": [
         "Find scenes/quotes from your favorite shows, remix and share them instantly",
-        "Hosts more than 2 million scenes with operating costs measured in pennies",
-        "Installs as a Progressive Web App (PWA) with cross-platform compatability",
+        "Responsive, Progressive Web App implemented in **React**, **Next.js**, & **TailwindCSS**",
         "[https://carpeme.me](https://carpeme.me)"
       ]
     },
@@ -58,14 +58,14 @@
       "start": "November 2014",
       "end": "December 2020",
       "notes": [
-        "Ported [dashboard.heroku.com](https://dashboard.heroku.com) to a client-side Web App including OAuth integration",
-        "Built [status.heroku.com](https://status.heroku.com) from scratch",
-        "Maintained [data.heroku.com](https://data.heroku.com)",
-        "Contributed to the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli) and [oclif](https://oclif.io) (an OSS CLI framework)",
-        "Prioritized accessibility across all products",
+        "Built [dashboard.heroku.com](https://dashboard.heroku.com) with **Ember.js** and 3 colleagues",
+        "Built [status.heroku.com](https://status.heroku.com) with **Ember.js** by myself",
+        "Inherited [data.heroku.com](https://data.heroku.com) and maintained it's **React** codebase",
+        "Contributed enterprise features to the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli) and [oclif](https://oclif.io) (an OSS CLI framework)",
+        "Prioritized **accessibility** across all products",
         "Authored and reviewed entries on [the Heroku Engineering Blog](https://blog.heroku.com/engineering)",
-        "Frequent code reviews while being a mentor to colleagues",
-        "Design collaboration through Figma, Sketch and Invision",
+        "Frequent code reviews while being a **mentor** to colleagues",
+        "Design collaboration through **Figma**, **Sketch** and **InVision**",
         "Worked on-call with frequent customer engagement",
         "Guided summer intern projects",
         "Org-wide collaboration via [Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments) and [Architectural Decision Records](https://adr.github.io)",
@@ -79,10 +79,10 @@
       "start": "April 2013",
       "end": "October 2014",
       "notes": [
-        "Remained an IC while managing a team of 10 engineers",
+        "Remained an IC while **managing a team of 10** engineers",
         "Accelerated projects through better tooling (web apps, native apps, cloud services)",
-        "E-commerce services written in Node.js",
-        "Web apps via [Ember.JS](https://emberjs.com), [Backbone.JS](https://backbonejs.org), and [Knockout.js](https://knockoutjs.com)",
+        "E-commerce services written in **Node.js**",
+        "Web apps via **Ember.js**, Backbone.js, and Knockout.js",
         "Reported to C-level and engaged with them ~daily~ hourly"
       ]
     },
@@ -93,7 +93,7 @@
       "start": "November 2012",
       "end": "April 2013",
       "notes": [
-        "Recruited, trained and managed a team of 5 engineers",
+        "Recruited, trained and **managed a team of 5** engineers",
         "Designed frameworks and built tooling to support our rapid growth",
         "Sheparded in new workflows such as GitHub, Pull Requests, etc"
       ]
@@ -139,6 +139,18 @@
       "notes": ["Contributed to the development of web apps"]
     },
     {
+      "label": "Apple",
+      "role": "Cocoa Camper",
+      "location": "Cupertino, CA",
+      "start": "May 2009",
+      "end": "June 2009",
+      "notes": [
+        "Apple _Cocoa Camp_ was an experiment within [Apple University](https://en.wikipedia.org/wiki/Apple_University)",
+        "Engineers taught us the ins-and-outs of iOS app development",
+        "I was 1 of only 30 students selected for the 2009 season"
+      ]
+    },
+    {
       "label": "FAA Technical Institute",
       "location": "Egg Harbor, NJ",
       "role": "Internship",
@@ -162,13 +174,13 @@
   "tools": [
     {
       "notes": [
-        "[TypeScript](https://www.typescriptlang.org),\n[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript),\n[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML),\n[CSS](https://developer.mozilla.org/en-US/docs/Web/HTML/Applying_color),\n[SVG](https://developer.mozilla.org/en-US/docs/Web/SVG),\n[Ember.js](https://emberjs.com),\n[SproutCore](https://sproutcore.com),\n[D3.js](https://d3js.org),\n[React](https://reactjs.org),\n[NEXT.js](https://nextjs.org),\n[Vue](https://vuejs.org),\n[Lit](https://lit.dev),\n[TailwindCSS](http://tailwindcss.com),\n[i18n](https://en.wikipedia.org/wiki/Internationalization_and_localization),\n[jQuery](https://github.com/jquery/jquery),\n",
+        "[TypeScript](https://www.typescriptlang.org),\n[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript),\n[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML),\n[CSS](https://developer.mozilla.org/en-US/docs/Web/HTML/Applying_color),\n[React](https://reactjs.org),\n[Ember.js](https://emberjs.com),\n[SproutCore](https://sproutcore.com),\n[D3.js](https://d3js.org),\n[NEXT.js](https://nextjs.org),\n[Vue](https://vuejs.org),\n[Lit](https://lit.dev),\n[TailwindCSS](http://tailwindcss.com),\n[i18n](https://en.wikipedia.org/wiki/Internationalization_and_localization),\n[jQuery](https://github.com/jquery/jquery)\n",
         "[Node.js](https://nodejs.org/en/),\n[Express](https://expressjs.com),\n[Koa](https://koajs.com),\n[Hapi](https://hapi.dev),\n[Ruby on Rails](https://rubyonrails.org),\n[Sinatra](http://sinatrarb.com),\n[Java](https://en.wikipedia.org/wiki/Java_(programming_language))\n",
         "[Mocha](https://mochajs.org), [QUnit](https://qunitjs.com), [Jasmine](https://jasmine.github.io), [Chai](https://www.chaijs.com), [Jest](https://jestjs.io), [Lab](https://hapi.dev/module/lab/), [Puppeteer](https://developers.google.com/web/tools/puppeteer)\n",
         "[Adobe](http://adobe.com),\n[Affinity](http://affinity.serif.com),\n[Figma](https://www.figma.com/),\n[Sketch](https://www.sketch.com),\n[InVision](https://www.invisionapp.com)\n",
-        "[PostgreSQL](https://www.postgresql.org),\n[Redis](http://redis.io),\n[Firebase](https://firebase.google.com),\n[ElasticSearch](https://www.elastic.co),\n[Splunk](https://www.splunk.com),\n[meilisearch](https://www.meilisearch.com),\n[typesense](https://typesense.org),\n[MongoDB](https://www.mongodb.com),\n[Graphile Migrate](https://github.com/graphile/migrate),\n[Graphile Worker](https://github.com/graphile/worker)\n",
+        "[PostgreSQL](https://www.postgresql.org),\n[Redis](http://redis.io),\n[Firebase](https://firebase.google.com),\n[Supabase](https://supabase.com/),\n[ElasticSearch](https://www.elastic.co),\n[Splunk](https://www.splunk.com),\n[meilisearch](https://www.meilisearch.com),\n[typesense](https://typesense.org),\n[MongoDB](https://www.mongodb.com),\n[Graphile Migrate](https://github.com/graphile/migrate),\n[Graphile Worker](https://github.com/graphile/worker)\n",
         "[Cloudflare](https://www.cloudflare.com),\n[Amazon Web Services (AWS)](https://aws.amazon.com),\n[Google Cloud Services (GCS)](https://cloud.google.com),\n[Heroku](https://www.heroku.com),\n[Vercel](https://vercel.com),\n[Netlify](http://netlify.com)\n",
-        "[GitHub](https://github.com),\n[GitLab](https://about.gitlab.com),\n[Slack](https://slack.com),\n[Trello](https://trello.com),\n[Shortcut](http://shortcut.com),\n[Google Workspace](https://workspace.google.com),\n[Zoom](https://zoom.us) \n"
+        "[GitHub](https://github.com),\n[GitLab](https://about.gitlab.com),\n[Slack](https://slack.com),\n[Trello](https://trello.com),\n[Shortcut](http://shortcut.com),\n[Google Workspace](https://workspace.google.com),\n[Zoom](https://zoom.us)"
       ]
     }
   ],
