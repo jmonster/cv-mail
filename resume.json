@@ -1,8 +1,7 @@
 {
   "title": "Johnny Domino's Resume",
   "label": "Johnny Domino",
-  "role": "Software Engineer",
-  "location": "Pittsburgh, PA",
+  "role": "Software Engineer, Frontend-focused",
   "email": "goforjohnny@icloud.com",
   "linkedin": "linkedin.com/in/jmonster",
   "github": "github.com/jmonster",
@@ -15,21 +14,35 @@
   ],
   "experience": [
     {
+      "label": "Outerbase",
+      "role": "I do almost everything",
+      "start": "February 2023",
+      "end": "Present",
+      "notes": [
+        "AI-powered database platform for viewing, querying, visualizing, and editing your data",
+        "Re-wrote the product from scratch shortly after joining the company",
+        "Leader and mentor of the Frontend team",
+        "Architected, implemented, and maintain https://app.outerbase.com",
+        "Responsible for the Marketing site https://outerbase.com",
+        "Built and maintain [EZQL](https://www.npmjs.com/package/ezql), our open-source natural language to SQL convertor",
+        "Established and evolve our team's collaborative processes"
+      ]
+    },
+    {
       "label": "Ketamine.Games (Medical Applications)",
-      "role": "Founder / Engineer / Designer",
+      "role": "Founder, Engineer, Product, Design",
       "start": "September 2022",
       "end": "Present",
       "notes": [
         "Creating software to facilitate ketamine therapy and maximize clinical outcomes for patients suffering from severe depression and anxiety",
-        "Responsive, Progressive Web App implemented in **React**, **Next.js**, & **TailwindCSS**",
         "Fostering a rapidly growing user-base through proactive community engagement",
         "Mentored by ketamine specialist Dr. Scott Smith - Smith Ketamine Services",
+        "A responsive web app implemented in **React**",
         "[https://ketamine.games](https://ketamine.games)"
       ]
     },
     {
       "label": "Volition",
-      "location": "Remote",
       "role": "Principal Full-Stack Software Engineer",
       "start": "August 2021",
       "end": "June 2022",
@@ -40,20 +53,18 @@
       ]
     },
     {
-      "label": "Carpe Memes",
-      "location": "Pittsburgh, PA",
-      "role": "Founder / Engineer / Designer",
+      "label": "Amphetamemes",
+      "role": "Founder, Architect, Engineer, Product Designer",
       "start": "January 2021",
       "end": "Present",
       "notes": [
         "Find scenes/quotes from your favorite shows, remix and share them instantly",
-        "Responsive, Progressive Web App implemented in **React**, **Next.js**, & **TailwindCSS**",
-        "[https://carpeme.me](https://carpeme.me)"
+        "A responsive web app implemented in **React**",
+        "[https://amphetamem.es](https://amphetamem.es)"
       ]
     },
     {
       "label": "Heroku (Salesforce)",
-      "location": "Remote",
       "role": "Lead Full-Stack Software Engineer",
       "start": "November 2014",
       "end": "December 2020",
@@ -74,12 +85,11 @@
     },
     {
       "label": "Branding Brand",
-      "location": "Pittsburgh, PA",
       "role": "Director of Architecture",
       "start": "April 2013",
       "end": "October 2014",
       "notes": [
-        "Remained an IC while **managing a team of 10** engineers",
+        "Simultaneously worked as an individual contributor while **managing a team of 10**",
         "Accelerated projects through better tooling (web apps, native apps, cloud services)",
         "E-commerce services written in **Node.js**",
         "Web apps via **Ember.js**, Backbone.js, and Knockout.js",
@@ -88,7 +98,6 @@
     },
     {
       "label": "Branding Brand",
-      "location": "Pittsburgh, PA",
       "role": "Engineering Manager (API)",
       "start": "November 2012",
       "end": "April 2013",
@@ -100,7 +109,6 @@
     },
     {
       "label": "Branding Brand",
-      "location": "Pittsburgh, PA",
       "role": "Full-Stack Software Engineer",
       "start": "December 2011",
       "end": "November 2012",
@@ -111,7 +119,6 @@
     },
     {
       "label": "Branding Brand",
-      "location": "Pittsburgh, PA",
       "role": "Frontend Software Engineer",
       "start": "October 2011",
       "end": "December 2011",
@@ -123,7 +130,6 @@
     },
     {
       "label": "UPMC Technology Development Center",
-      "location": "Pittsburgh, PA",
       "role": "Full-Stack Software Engineer",
       "start": "July 2010",
       "end": "September 2011",
@@ -133,7 +139,6 @@
     },
     {
       "label": "Carnegie Mellon University Software Engineering Institute",
-      "location": "Pittsburgh, PA",
       "start": "April 2009",
       "end": "July 2010",
       "notes": ["Contributed to the development of web apps"]
@@ -141,7 +146,6 @@
     {
       "label": "Apple",
       "role": "Cocoa Camper",
-      "location": "Cupertino, CA",
       "start": "May 2009",
       "end": "June 2009",
       "notes": [
@@ -152,7 +156,6 @@
     },
     {
       "label": "FAA Technical Institute",
-      "location": "Egg Harbor, NJ",
       "role": "Internship",
       "start": "Summer 2008",
       "notes": ["Contributed to the development of the FAA's flight simulator"]
@@ -187,6 +190,7 @@
   "references": [
     {
       "notes": [
+        "[Brayden Wilmoth](https://www.linkedin.com/in/brayden-wilmoth/)\n\nCTO, [Outerbase](https://outerbase.com)\n",
         "[Jeremy Herrman](https://www.linkedin.com/in/jherrm/)\n\nCTO, [Volition](https://govolition.com)\n",
         "[Ameesh Kapoor](https://www.linkedin.com/in/ameeshkapoor/)\n\nHead of Engineering, [412-FOOD](https://412foodrescue.org/about-us/)\n"
       ]

@@ -12,7 +12,7 @@ function opportunityTitleFor(label: string, location: string, role?: string) {
     return (
       <h4>
         <span className="font-bold">{label}</span>,{" "}
-        <span className="underline">{role}</span>{" "}
+        <span className="italic">{role}</span>{" "}
         <span className="text-xs">({location})</span>
       </h4>
     )
@@ -27,7 +27,7 @@ function opportunityTitleFor(label: string, location: string, role?: string) {
     return (
       <h4>
         <span className="font-bold">{label}</span>,{" "}
-        <span className="underline">{role}</span>{" "}
+        <span className="italic">{role}</span>{" "}
       </h4>
     )
   } else {
@@ -62,10 +62,7 @@ function Opportunity({ title, collection }: Sections) {
                     {notes &&
                       notes.map((n, idx) => {
                         return (
-                          <li
-                            key={idx}
-                            className="text-sm font-serif print:text-xs "
-                          >
+                          <li key={idx} className="text-sm print:text-xs ">
                             <ReactMarkdown remarkPlugins={[remarkGfm]}>
                               {n}
                             </ReactMarkdown>

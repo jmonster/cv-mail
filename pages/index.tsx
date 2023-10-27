@@ -76,15 +76,17 @@ export default function EmailPage(resume: Resume) {
         <meta property="og:image:height" content="512" />
       </Head>
 
-      <div className="grid grid-cols-7 gap-2 mb-4">
+      <div className="grid grid-cols-7 gap-2 mb-4 font-resume">
         {/* left */}
-        <div className="col-span-7 print:col-span-5 md:col-span-5">
+        <div className="col-span-7  md:col-span-5">
           <h1 className="text-4xl">{resume.label}</h1>
-          <h2 className="text-2xl font-mono">&gt; {resume.role}</h2>
+          <h2 className="text-2xl print:text-xl font-mono">
+            &gt; {resume.role}
+          </h2>
         </div>
 
         {/* right */}
-        <div className="col-span-7 print:col-span-2 md:col-span-2">
+        <div className="col-span-7 md:col-span-2">
           <ul className="text-sm">
             <EmailSection email={resume.email} />
             <GitHubSection username={resume.github} />
@@ -93,9 +95,9 @@ export default function EmailPage(resume: Resume) {
         </div>
       </div>
 
-      <div className="grid grid-cols-7 gap-2">
+      <div className="grid grid-cols-7 gap-2 font-resume">
         {/* left */}
-        <div className="col-span-7 print:col-span-5 md:col-span-5">
+        <div className="col-span-7 md:col-span-5">
           {resume.experience && (
             <Opportunity title="Experience" collection={resume.experience} />
           )}
@@ -110,7 +112,7 @@ export default function EmailPage(resume: Resume) {
         </div>
 
         {/* right */}
-        <div className="col-span-7 print:col-span-2 md:col-span-2 print:text-xs">
+        <div className="col-span-7 md:col-span-2">
           {resume.education && (
             <Aside title="Education" collection={resume.education} />
           )}

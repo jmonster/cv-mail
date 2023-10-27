@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Aller";
+  src: url("/Aller_Rg.ttf") format("truetype");
+}
+
 a {
   color: rgba(49, 46, 129, 1);
 }
