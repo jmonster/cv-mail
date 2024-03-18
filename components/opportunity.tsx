@@ -77,6 +77,10 @@ function Opportunity({ title, collection }: Sections) {
             }
           )}
       </ul>
+
+      <h1 className="font-thin text-sm inline-block mt-2 px-1 italic bg-green-50 dark:bg-green-950">
+        additional qualifications have been omitted for brevity
+      </h1>
     </div>
   )
 }

@@ -1,7 +1,7 @@
 {
   "title": "Johnny Domino's Resume",
   "label": "Johnny Domino",
-  "role": "Software Engineer, Frontend-focused",
+  "role": "Software Engineer/Architect",
   "email": "goforjohnny@icloud.com",
   "linkedin": "linkedin.com/in/jmonster",
   "github": "github.com/jmonster",
@@ -14,176 +14,102 @@
   ],
   "experience": [
     {
-      "label": "Outerbase",
-      "role": "I do almost everything",
+      "label": "Outerbase (an AI database platform)",
+      "role": "Chief Architect (Engineer)",
       "start": "February 2023",
       "end": "Present",
       "notes": [
-        "AI-powered database platform for viewing, querying, visualizing, and editing your data",
-        "Re-wrote the product from scratch shortly after joining the company",
-        "Leader and mentor of the Frontend team",
-        "Architected, implemented, and maintain https://app.outerbase.com",
-        "Responsible for the Marketing site https://outerbase.com",
-        "Built and maintain [EZQL](https://www.npmjs.com/package/ezql), our open-source natural language to SQL convertor",
-        "Established and evolve our team's collaborative processes"
+        "Lead contributor to [https://app.outerbase.com](https://app.outerbase.com)",
+        "Shepard of open-source projects such as [EZQL](https://www.npmjs.com/package/ezql)",
+        "Maintaining marketing channels including [https://outerbase.com](https://outerbase.com)",
+        "Mentoring our Frontend team"
       ]
     },
     {
-      "label": "Ketamine.Games (Medical Applications)",
-      "role": "Founder, Engineer, Product, Design",
+      "label": "Ketamine.Games (medical applications)",
+      "role": "Founder/Engineer/Designer",
       "start": "September 2022",
       "end": "Present",
       "notes": [
-        "Creating software to facilitate ketamine therapy and maximize clinical outcomes for patients suffering from severe depression and anxiety",
-        "Fostering a rapidly growing user-base through proactive community engagement",
-        "Mentored by ketamine specialist Dr. Scott Smith - Smith Ketamine Services",
-        "A responsive web app implemented in **React**",
-        "[https://ketamine.games](https://ketamine.games)"
+        "Maximize clinical outcomes for patients suffering from severe depression and anxiety",
+        "[https://ketamine.games](https://Ketamine.Games)"
       ]
     },
     {
-      "label": "Volition",
-      "role": "Principal Full-Stack Software Engineer",
+      "label": "Volition (e-commerce)",
+      "role": "Principal Full-Stack Engineer",
       "start": "August 2021",
       "end": "June 2022",
       "notes": [
-        "Built data acquisition tooling including **web crawlers** and **scrapers**",
-        "Reimagined platform architecture to improve performance and reduced costs",
+        "Built data acquisition tooling including web crawlers and scrapers",
         "Orchestrated pods in Google Kubernetes Engine (GKE)"
       ]
     },
     {
-      "label": "Amphetamemes",
-      "role": "Founder, Architect, Engineer, Product Designer",
+      "label": "Amphetamemes (entertainment)",
+      "role": "Founder/Engineer/Designer",
       "start": "January 2021",
       "end": "Present",
       "notes": [
-        "Find scenes/quotes from your favorite shows, remix and share them instantly",
-        "A responsive web app implemented in **React**",
-        "[https://amphetamem.es](https://amphetamem.es)"
+        "Find, remix, and share scenes from your favorite shows @ [https://amphetamem.es](https://amphetamem.es)"
       ]
     },
     {
-      "label": "Heroku (Salesforce)",
-      "role": "Lead Full-Stack Software Engineer",
+      "label": "Salesforce (Heroku cloud services)",
+      "role": "Lead Full-Stack Engineer",
       "start": "November 2014",
       "end": "December 2020",
       "notes": [
-        "Built [dashboard.heroku.com](https://dashboard.heroku.com) with **Ember.js** and 3 colleagues",
-        "Built [status.heroku.com](https://status.heroku.com) with **Ember.js** by myself",
-        "Inherited [data.heroku.com](https://data.heroku.com) and maintained it's **React** codebase",
-        "Contributed enterprise features to the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli) and [oclif](https://oclif.io) (an OSS CLI framework)",
-        "Prioritized **accessibility** across all products",
+        "Built [dashboard.heroku.com](https://dashboard.heroku.com), [data.heroku.com](https://data.heroku.com) and [status.heroku.com](https://status.heroku.com)",
+        "Performed code reviews as a mentor",
+        "Worked on-call with customer support",
+        "Engaged in design collaboration through Figma",
         "Authored and reviewed entries on [the Heroku Engineering Blog](https://blog.heroku.com/engineering)",
-        "Frequent code reviews while being a **mentor** to colleagues",
-        "Design collaboration through **Figma**, **Sketch** and **InVision**",
-        "Worked on-call with frequent customer engagement",
-        "Guided summer intern projects",
-        "Org-wide collaboration via [Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments) and [Architectural Decision Records](https://adr.github.io)",
-        "Represented Heroku at conferences including [GitHub Universe](https://githubuniverse.com) and [EmberConf](https://emberconf.com)"
+        "Represented Heroku at conferences including [GitHub Universe](https://githubuniverse.com) and [EmberConf](https://emberconf.com)",
+        "Guided summer intern projects"
       ]
     },
     {
-      "label": "Branding Brand",
+      "label": "Branding Brand (e-commerce)",
       "role": "Director of Architecture",
-      "start": "April 2013",
+      "start": "October 2011",
       "end": "October 2014",
       "notes": [
-        "Simultaneously worked as an individual contributor while **managing a team of 10**",
-        "Accelerated projects through better tooling (web apps, native apps, cloud services)",
-        "E-commerce services written in **Node.js**",
-        "Web apps via **Ember.js**, Backbone.js, and Knockout.js",
-        "Reported to C-level and engaged with them ~daily~ hourly"
-      ]
-    },
-    {
-      "label": "Branding Brand",
-      "role": "Engineering Manager (API)",
-      "start": "November 2012",
-      "end": "April 2013",
-      "notes": [
-        "Recruited, trained and **managed a team of 5** engineers",
-        "Designed frameworks and built tooling to support our rapid growth",
-        "Sheparded in new workflows such as GitHub, Pull Requests, etc"
-      ]
-    },
-    {
-      "label": "Branding Brand",
-      "role": "Full-Stack Software Engineer",
-      "start": "December 2011",
-      "end": "November 2012",
-      "notes": [
-        "Modernized the company's technology stack and processes to improve DevEx",
-        "Iterated on core IP while conducting A/B tests to maximize conversion"
-      ]
-    },
-    {
-      "label": "Branding Brand",
-      "role": "Frontend Software Engineer",
-      "start": "October 2011",
-      "end": "December 2011",
-      "notes": [
-        "Prototyped v2 of our core technology and subsequently led all engineering efforts",
-        "Built mobile web apps for >100 E-commerce companies including eBay, Costco, and Macy's",
-        "Developed native iOS apps for Sephora and American Eagle"
+        "Managed a team of 10 engineers",
+        "While engaging as an individual contributor (IC)",
+        "Built web apps and services",
+        "Accelerated projects through tooling improvements",
+        "**Engineering Manager**, November 2012 - April 2013",
+        "**Full-Stack Software Engineer**, December 2011 - November 2012",
+        "**Frontend Software Engineer**, October - December 2011"
       ]
     },
     {
       "label": "UPMC Technology Development Center",
-      "role": "Full-Stack Software Engineer",
+      "role": "Full-Stack Engineer",
       "start": "July 2010",
       "end": "September 2011",
-      "notes": [
-        "Lead engineer of all projects spanning frontend, backend and native mobile apps"
-      ]
-    },
-    {
-      "label": "Carnegie Mellon University Software Engineering Institute",
-      "start": "April 2009",
-      "end": "July 2010",
-      "notes": ["Contributed to the development of web apps"]
-    },
-    {
-      "label": "Apple",
-      "role": "Cocoa Camper",
-      "start": "May 2009",
-      "end": "June 2009",
-      "notes": [
-        "Apple _Cocoa Camp_ was an experiment within [Apple University](https://en.wikipedia.org/wiki/Apple_University)",
-        "Engineers taught us the ins-and-outs of iOS app development",
-        "I was 1 of only 30 students selected for the 2009 season"
-      ]
-    },
-    {
-      "label": "FAA Technical Institute",
-      "role": "Internship",
-      "start": "Summer 2008",
-      "notes": ["Contributed to the development of the FAA's flight simulator"]
+      "notes": ["Lead all R&D projects during my tenure"]
     }
   ],
   "skills": [
     {
       "notes": [
-        "Software Architecture\n\nResearch & Development\n",
-        "User Experience\n\nDesign\n\nPrototyping\n",
-        "Developer Experience (DevEx)\n\n Devleoper Operations (DevOps)\n",
-        "E-commerce\n\nMarketing\n\nAnalytics\n\nGrowth\n",
-        "Remote and Onsite\n\nCollaboration, Teamwork\n\nCode Reviews\n\nFeedback\n",
-        "Leadership\n\nAdvocate, Ally\n",
-        "Customer success"
+        "Software Architecture\n\nResearch & Development\n\nPrototyping\n",
+        "User Experience\n\nMarketing\n\nAnalytics\n",
+        "E-commerce\n\nMarketing, Analytics\n"
       ]
     }
   ],
   "tools": [
     {
       "notes": [
-        "[TypeScript](https://www.typescriptlang.org),\n[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript),\n[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML),\n[CSS](https://developer.mozilla.org/en-US/docs/Web/HTML/Applying_color),\n[React](https://reactjs.org),\n[Ember.js](https://emberjs.com),\n[SproutCore](https://sproutcore.com),\n[D3.js](https://d3js.org),\n[NEXT.js](https://nextjs.org),\n[Vue](https://vuejs.org),\n[Lit](https://lit.dev),\n[TailwindCSS](http://tailwindcss.com),\n[i18n](https://en.wikipedia.org/wiki/Internationalization_and_localization),\n[jQuery](https://github.com/jquery/jquery)\n",
-        "[Node.js](https://nodejs.org/en/),\n[Express](https://expressjs.com),\n[Koa](https://koajs.com),\n[Hapi](https://hapi.dev),\n[Ruby on Rails](https://rubyonrails.org),\n[Sinatra](http://sinatrarb.com),\n[Java](https://en.wikipedia.org/wiki/Java_(programming_language))\n",
-        "[Mocha](https://mochajs.org), [QUnit](https://qunitjs.com), [Jasmine](https://jasmine.github.io), [Chai](https://www.chaijs.com), [Jest](https://jestjs.io), [Lab](https://hapi.dev/module/lab/), [Puppeteer](https://developers.google.com/web/tools/puppeteer)\n",
-        "[Adobe](http://adobe.com),\n[Affinity](http://affinity.serif.com),\n[Figma](https://www.figma.com/),\n[Sketch](https://www.sketch.com),\n[InVision](https://www.invisionapp.com)\n",
-        "[PostgreSQL](https://www.postgresql.org),\n[Redis](http://redis.io),\n[Firebase](https://firebase.google.com),\n[Supabase](https://supabase.com/),\n[ElasticSearch](https://www.elastic.co),\n[Splunk](https://www.splunk.com),\n[meilisearch](https://www.meilisearch.com),\n[typesense](https://typesense.org),\n[MongoDB](https://www.mongodb.com),\n[Graphile Migrate](https://github.com/graphile/migrate),\n[Graphile Worker](https://github.com/graphile/worker)\n",
-        "[Cloudflare](https://www.cloudflare.com),\n[Amazon Web Services (AWS)](https://aws.amazon.com),\n[Google Cloud Services (GCS)](https://cloud.google.com),\n[Heroku](https://www.heroku.com),\n[Vercel](https://vercel.com),\n[Netlify](http://netlify.com)\n",
-        "[GitHub](https://github.com),\n[GitLab](https://about.gitlab.com),\n[Slack](https://slack.com),\n[Trello](https://trello.com),\n[Shortcut](http://shortcut.com),\n[Google Workspace](https://workspace.google.com),\n[Zoom](https://zoom.us)"
+        "[TypeScript](https://www.typescriptlang.org),\n[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript),\n[React](https://reactjs.org),\n[LitElement](https://lit.dev),\n[Ember.js](https://emberjs.com),\n[TailwindCSS](http://tailwindcss.com),\n[jQuery](https://github.com/jquery/jquery),\n[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML),\n[CSS](https://developer.mozilla.org/en-US/docs/Web/HTML/Applying_color)",
+        "[Node.js](https://nodejs.org/en/),\n[Express](https://expressjs.com),\n[Koa](https://koajs.com),\n[Sinatra](http://sinatrarb.com)\n",
+        "[Mocha](https://mochajs.org), [QUnit](https://qunitjs.com), [Jasmine](https://jasmine.github.io), [Chai](https://www.chaijs.com), [Jest](https://jestjs.io)\n",
+        "[PostgreSQL](https://www.postgresql.org),\n[Redis](http://redis.io),\n[ElasticSearch](https://www.elastic.co),\n[MongoDB](https://www.mongodb.com),\n[Graphile](https://github.com/graphile)\n",
+        "[Cloudflare](https://www.cloudflare.com),\n[Amazon Web Services (AWS)](https://aws.amazon.com),\n[Google Cloud Services (GCS)](https://cloud.google.com)\n",
+        "[Adobe](http://adobe.com),\n[Affinity](http://affinity.serif.com),\n[Figma](https://www.figma.com/)\n"
       ]
     }
   ],
